@@ -13,5 +13,5 @@ OR
 
 1. Get assembled boards using the files in this repository
 2. Solder header of your choice
-3. (Except for RP2040 version) older RPi Pico (use Pico-W if you want DaynaPORT capabilities for a Mac)
+3. (Except for RP2040 version) Solder RPi Pico - use Pico-W if you want DaynaPORT capabilities for a Mac
 4. Go to https://github.com/ZuluSCSI/ZuluSCSI-firmware and grab the Pico/Pico_DaynaPORT version of the latest release and flash to the board by connecting via USB while holding BOOTSEL (or toggling the boot dip switch for RP2040)
