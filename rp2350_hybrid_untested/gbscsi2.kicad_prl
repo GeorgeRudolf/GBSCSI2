@@ -16,16 +16,16 @@
     },
     "ratsnest_display_mode": 0,
     "selection_filter": {
-      "dimensions": true,
-      "footprints": true,
-      "graphics": true,
-      "keepouts": true,
+      "dimensions": false,
+      "footprints": false,
+      "graphics": false,
+      "keepouts": false,
       "lockedItems": true,
-      "otherItems": true,
-      "pads": true,
+      "otherItems": false,
+      "pads": false,
       "text": true,
-      "tracks": true,
-      "vias": true,
+      "tracks": false,
+      "vias": false,
       "zones": true
     },
     "visible_items": [
@@ -66,12 +66,6 @@
     ],
     "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
-  },
-  "git": {
-    "repo_password": "",
-    "repo_type": "",
-    "repo_username": "",
-    "ssh_key": ""
   },
   "meta": {
     "filename": "gbscsi2.kicad_prl",
