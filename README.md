@@ -30,11 +30,11 @@ the board from a separate 5V source as described above. If there is enough deman
 
 2. v1.0b Hybrid and v1.0 RP2040 boards have the wrong pad deleted for keying pin on 2.5" header - should be 17 instead of 21.
 
-3. RP2350 boards have been tested by Rabbit Hole Computing's (makers of ZuluSCSI) Alex Perez (many thanks!) and are officially released as validated builds. Suitable firmware available at https://github.com/ZuluSCSI/ZuluSCSI-firmware/releases/tag/v2024.10.11-pico2-beta
-
 Patch: Do not install/cut pin 17.
 
 Change: Connector rekeyed.
 
 3. v1.0c Hybrid changed to 1.0d, for ground plane repour around 2.5" header keying change in 1.0c. Other 2.5" boards also changed, but as they don't have published gerbers, their revision numbers weren't changed.
 Schottky diodes changed in BoM for all boards (JLC P/N C8598 to C82544). This is due to C8598 typically exhibiting too high of a forward voltage.
+
+4. RP2350 boards have been tested by Rabbit Hole Computing's (makers of ZuluSCSI) Alex Perez (many thanks!) and are officially released as validated builds. Suitable firmware available at https://github.com/ZuluSCSI/ZuluSCSI-firmware/releases/tag/v2024.10.11-pico2-beta
