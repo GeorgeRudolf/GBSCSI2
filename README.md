@@ -6,7 +6,7 @@ Herein are the design files for all variants of GBSCSI2 in KiCad 7 format. The h
 With thanks to https://decromancer.ca for sponsoring this project; wohali, tr0n, compu85, sabur and luigi30 for testing; and the rest of UHF for their continued enthusiasm and support.
 
 # HOW TO:
-1. Buy board from decromancer
+1. Buy board from decromancer or [Emmy Bear Retro](https://retro.emmybear.shop)
 2. It arrives at your doorstep ready to use
 
 OR
