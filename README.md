@@ -38,4 +38,4 @@ Change: Connector rekeyed.
 Schottky diodes changed in BoM for all boards (JLC P/N C8598 to C82544). This is due to C8598 typically exhibiting too high of a forward voltage.
 
 4. RP2350 boards have been tested by Rabbit Hole Computing's (makers of ZuluSCSI) Alex Perez (many thanks!) and are officially released as validated builds. Suitable firmware available at https://github.com/ZuluSCSI/ZuluSCSI-firmware/releases/tag/v2024.10.11-pico2-beta
-5. A provisional Fast Wide SCSI variant has been designed, but is considered WIP. I haven't really been working on GBSCSI since Xmas '24. More changes to come soon.
+5. A provisional Fast Wide SCSI variant has been designed, but is considered WIP (and of dubious quality). I haven't really been working on GBSCSI since Xmas '24. More changes to come soon.
