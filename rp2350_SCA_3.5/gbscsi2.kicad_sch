@@ -6,10 +6,10 @@
 
   (title_block
     (title "GBSCSI 2 Wide")
-    (date "2025-03-08")
-    (rev "0.1.1")
+    (date "2025-03-09")
+    (rev "0.1")
     (comment 1 "Drawn by; George Rudolf Mezzomo")
-    (comment 2 "GBSCSI model 2, HD68W header, 3.5\" form factor compatible, discrete RP2350")
+    (comment 2 "GBSCSI model 2, SCA header, 3.5\" form factor compatible, discrete RP2350")
   )
 
   (lib_symbols
@@ -6629,7 +6629,7 @@
     (property "Value" "GT-TC108A-H034-L1S" (at 180.34 158.75 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 170.18 161.29 0)
+    (property "Footprint" "GBSCSI:SW_Push_1P1T-MP_NO_Horizontal_Alps_SKRTLAE010" (at 170.18 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 170.18 161.29 0)

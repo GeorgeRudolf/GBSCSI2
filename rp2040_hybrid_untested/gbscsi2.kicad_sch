@@ -6,8 +6,8 @@
 
   (title_block
     (title "GBSCSI 2")
-    (date "2024-01-30")
-    (rev "1.0")
+    (date "2025-03-09")
+    (rev "1.1")
     (comment 1 "Drawn by; George Rudolf Mezzomo")
     (comment 2 "GBSCSI model 2, 2/2.54mm header, 2.5\" form factor compatible, discrete RP2040")
   )
