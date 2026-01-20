@@ -27,5 +27,6 @@ Rabbit Hole Computing has forked these designs, corrected their flaws and finish
 
 2. The variants tagged "untested" are exactly that. I've never personally made boards from them. Use at your own risk.
 
+3. For changes and errata, see the relevant files in the repo.
 
 
