@@ -498,6 +498,12 @@
 		)
 	)
 	(junction
+		(at 99.06 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12807fb2-bd51-431d-b545-5642c7422fde")
+	)
+	(junction
 		(at 99.06 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -564,6 +570,12 @@
 		(uuid "d539a000-fa16-4466-8496-9caccc81f08d")
 	)
 	(junction
+		(at 90.17 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5c300fb-bcd4-4106-b58f-1407771b7e28")
+	)
+	(junction
 		(at 99.06 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -580,6 +592,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f203ddce-941e-45c9-a01c-b68a50fbe716")
+	)
+	(wire
+		(pts
+			(xy 88.9 125.73) (xy 90.17 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d46d25b-dcb5-45f4-9a1e-a41a22423da3")
 	)
 	(wire
 		(pts
@@ -803,6 +825,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 114.3) (xy 99.06 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a673e0c-c526-4f6b-9387-37473e56b51c")
+	)
+	(wire
+		(pts
 			(xy 97.79 114.3) (xy 99.06 114.3)
 		)
 		(stroke
@@ -853,6 +885,26 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 125.73) (xy 88.9 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7602047-09bc-4901-b8b5-f0fea357ec07")
+	)
+	(wire
+		(pts
+			(xy 97.79 125.73) (xy 99.06 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baae2f9f-892f-43e9-852b-75934cd8b324")
+	)
+	(wire
+		(pts
 			(xy 54.61 50.8) (xy 54.61 52.07)
 		)
 		(stroke
@@ -873,7 +925,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 114.3) (xy 90.17 129.54)
+			(xy 90.17 114.3) (xy 90.17 125.73)
 		)
 		(stroke
 			(width 0)
@@ -900,6 +952,16 @@
 			(type default)
 		)
 		(uuid "d642a193-090c-49d6-bbf3-ac771272f8c6")
+	)
+	(wire
+		(pts
+			(xy 90.17 125.73) (xy 92.71 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d74bc86a-18b7-4c8d-a74e-f77d76c14dbc")
 	)
 	(wire
 		(pts
@@ -1964,33 +2026,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 90.17 129.54 0)
+		(lib_id "Device:C_Small")
+		(at 95.25 125.73 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6bf55583-19ee-4c43-8546-ee31dc4073bc")
-		(property "Reference" "#PWR040"
-			(at 90.17 135.89 0)
+		(uuid "688da641-9ff6-4a64-b2d1-0d2603931823")
+		(property "Reference" "C36"
+			(at 91.694 128.778 90)
 			(effects
 				(font
 					(size 1.2 1.2)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 90.297 133.9342 0)
+		(property "Value" "100nF"
+			(at 91.694 131.0894 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 90.17 129.54 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 91.44 126.6952 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1998,8 +2061,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 90.17 129.54 0)
+		(property "Datasheet" "~"
+			(at 95.25 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2008,7 +2071,127 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 129.54 0)
+			(at 95.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 95.25 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Preferred MPN" "CL05B104KB54PNC"
+			(at 95.25 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate Part Number" "GRM155R71H104KE14D"
+			(at 95.25 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Nominal Preferred Characteristics" "50V X7R"
+			(at 94.742 133.096 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Case/Package" "0402"
+			(at 95.25 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "1.0x0.5mm"
+			(at 95.25 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e32901f9-7249-43aa-aebc-22a456f33dad")
+		)
+		(pin "2"
+			(uuid "ae1b351d-f17e-4270-95d8-ae3f6058516e")
+		)
+		(instances
+			(project "GBSCSI2_2.5SCA_TH_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/dbcf004f-88e5-4126-8d06-f1825ffeac66"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bf55583-19ee-4c43-8546-ee31dc4073bc")
+		(property "Reference" "#PWR040"
+			(at 88.9 142.24 0)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 89.027 140.2842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)

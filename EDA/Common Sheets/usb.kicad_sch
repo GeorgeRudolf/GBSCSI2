@@ -2260,7 +2260,7 @@
 			(uuid "7684b20d-b873-4c66-81e6-faa45ff51c9a")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_235x"
+			(project "GBSCSI2_2.5SCA_TH_235x"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/a72849e9-6dac-46ec-88c5-068bd9bce617"
 					(reference "#PWR0119")
 					(unit 1)
@@ -2427,7 +2427,7 @@
 			(uuid "c6bcd6c0-cbe7-498b-ad6e-39c2a35733d1")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_235x"
+			(project "GBSCSI2_2.5SCA_TH_235x"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/a72849e9-6dac-46ec-88c5-068bd9bce617"
 					(reference "J3")
 					(unit 1)
@@ -2492,7 +2492,7 @@
 			(uuid "d5cfdc70-48b5-47d9-bcff-96a47bb4b138")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_235x"
+			(project "GBSCSI2_2.5SCA_TH_235x"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/a72849e9-6dac-46ec-88c5-068bd9bce617"
 					(reference "#FLG0101")
 					(unit 1)
@@ -2556,7 +2556,7 @@
 			(uuid "b8596a56-0ebd-441a-99c8-7ae1dbe16c1f")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_235x"
+			(project "GBSCSI2_2.5SCA_TH_235x"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/a72849e9-6dac-46ec-88c5-068bd9bce617"
 					(reference "#PWR0118")
 					(unit 1)
@@ -2622,7 +2622,7 @@
 			(uuid "f3fe46e7-46f9-46c9-9d88-c5c7f0a75a0c")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_235x"
+			(project "GBSCSI2_2.5SCA_TH_235x"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/a72849e9-6dac-46ec-88c5-068bd9bce617"
 					(reference "#PWR0120")
 					(unit 1)
@@ -2688,7 +2688,7 @@
 			(uuid "6da15a7d-1d8c-4bd5-b9cf-eb262dfd35a9")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_235x"
+			(project "GBSCSI2_2.5SCA_TH_235x"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/a72849e9-6dac-46ec-88c5-068bd9bce617"
 					(reference "#PWR0116")
 					(unit 1)
@@ -2786,7 +2786,7 @@
 			(uuid "853f3c1b-fd2a-44e7-87ee-429cfbde7b67")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_235x"
+			(project "GBSCSI2_2.5SCA_TH_235x"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/a72849e9-6dac-46ec-88c5-068bd9bce617"
 					(reference "U3")
 					(unit 1)
@@ -2871,7 +2871,7 @@
 			(uuid "3ed59486-05c2-48a3-b52e-a405c4cd3061")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_235x"
+			(project "GBSCSI2_2.5SCA_TH_235x"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/a72849e9-6dac-46ec-88c5-068bd9bce617"
 					(reference "R24")
 					(unit 1)
@@ -2935,7 +2935,7 @@
 			(uuid "2ea9c923-1bc7-4f6c-8ae5-22defa0fb84a")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_235x"
+			(project "GBSCSI2_2.5SCA_TH_235x"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/a72849e9-6dac-46ec-88c5-068bd9bce617"
 					(reference "#PWR0115")
 					(unit 1)
@@ -3000,7 +3000,7 @@
 			(uuid "ddd1670c-93bf-4771-b403-2277339a1d92")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_235x"
+			(project "GBSCSI2_2.5SCA_TH_235x"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/a72849e9-6dac-46ec-88c5-068bd9bce617"
 					(reference "#PWR0117")
 					(unit 1)
@@ -3085,7 +3085,7 @@
 			(uuid "da729090-cc98-4c10-b104-cd1ba53b4d95")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_235x"
+			(project "GBSCSI2_2.5SCA_TH_235x"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/a72849e9-6dac-46ec-88c5-068bd9bce617"
 					(reference "R23")
 					(unit 1)
@@ -3171,7 +3171,7 @@
 			(uuid "493fbce1-01dd-4958-88de-f4dac2909c33")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_235x"
+			(project "GBSCSI2_2.5SCA_TH_235x"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/a72849e9-6dac-46ec-88c5-068bd9bce617"
 					(reference "C8")
 					(unit 1)

@@ -4338,15 +4338,15 @@
 		(dnp no)
 		(uuid "0a67439c-2371-4912-99f1-49979723b1e6")
 		(property "Reference" "R10"
-			(at 129.032 176.022 90)
+			(at 128.016 176.022 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4k7"
-			(at 133.35 176.022 90)
+		(property "Value" "4.7kΩ"
+			(at 132.842 176.022 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4684,15 +4684,15 @@
 		(dnp no)
 		(uuid "37cc5f3d-7ba8-4dac-804c-77e379f2a5e0")
 		(property "Reference" "R6"
-			(at 105.41 175.768 90)
+			(at 100.076 176.022 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4k7"
-			(at 101.346 175.768 90)
+		(property "Value" "4.7kΩ"
+			(at 105.029 176.022 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4854,15 +4854,15 @@
 		(dnp no)
 		(uuid "5285b3ac-c93a-4da7-b7e9-d6d28bd2737a")
 		(property "Reference" "R9"
-			(at 129.032 170.942 90)
+			(at 128.016 170.942 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4k7"
-			(at 133.35 170.942 90)
+		(property "Value" "4.7kΩ"
+			(at 132.842 170.942 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5370,15 +5370,15 @@
 		(dnp no)
 		(uuid "96a3eeb7-0fe0-4441-80d7-e6ea2d183b19")
 		(property "Reference" "R8"
-			(at 105.41 180.848 90)
+			(at 100.076 181.102 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4k7"
-			(at 101.346 180.848 90)
+		(property "Value" "4.7kΩ"
+			(at 105.029 181.102 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5852,15 +5852,15 @@
 		(dnp no)
 		(uuid "ca88eadd-b289-4142-bc90-e12d3e42ae52")
 		(property "Reference" "R11"
-			(at 129.032 181.102 90)
+			(at 128.016 181.102 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4k7"
-			(at 133.35 181.102 90)
+		(property "Value" "4.7kΩ"
+			(at 132.842 181.102 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5936,15 +5936,15 @@
 		(dnp no)
 		(uuid "df8249ee-8dbd-4b8a-9b51-1b569f654a83")
 		(property "Reference" "R5"
-			(at 105.41 170.688 90)
+			(at 100.076 170.942 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4k7"
-			(at 101.346 170.688 90)
+		(property "Value" "4.7kΩ"
+			(at 105.029 170.942 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6028,8 +6028,8 @@
 				)
 			)
 		)
-		(property "Value" "4k7"
-			(at 133.096 166.878 0)
+		(property "Value" "4.7kΩ"
+			(at 132.08 166.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6268,7 +6268,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f996c9b4-43ad-4437-9dd8-f12f7ef5f97d")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 176.53 162.56 0)
 			(effects
 				(font
@@ -6340,7 +6340,7 @@
 		(instances
 			(project "GBSCSI2_2.5N_Pico"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
