@@ -5,7 +5,7 @@
 	(uuid "1a6e1c59-4a03-4496-b7d2-c986fca7194d")
 	(paper "A4")
 	(title_block
-		(title "GBSCSI2 - Common Platform - Buffers, Narrow")
+		(title "GBSCSI2 - Common Platform - Buffers, Wide")
 		(date "2026-02-01")
 		(rev "2.0")
 		(comment 1 "Drawn by George R. M.")

@@ -5,7 +5,7 @@
 	(uuid "7bb37e06-ae75-43e2-9456-960ef5866a76")
 	(paper "A4" portrait)
 	(title_block
-		(title "GBSCSI2 Common Platform Core - RP235xA, Narrow")
+		(title "GBSCSI2 Common Platform Core - RP235xB, Wide")
 		(date "2026-02-01")
 		(rev "2.0")
 		(comment 1 "Drawn by George R. M.")
@@ -5036,7 +5036,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 105.41) (xy 187.96 105.41)
+			(xy 173.99 105.41) (xy 185.42 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5546,7 +5546,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 125.73) (xy 144.78 125.73)
+			(xy 165.1 125.73) (xy 144.78 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5856,7 +5856,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 116.84) (xy 187.96 115.57)
+			(xy 185.42 116.84) (xy 185.42 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6246,7 +6246,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 50.8) (xy 29.21 53.34)
+			(xy 29.21 50.8) (xy 29.21 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6616,7 +6616,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 105.41) (xy 187.96 107.95)
+			(xy 185.42 105.41) (xy 185.42 107.95)
 		)
 		(stroke
 			(width 0)
@@ -7226,7 +7226,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 123.19) (xy 144.78 123.19)
+			(xy 165.1 123.19) (xy 144.78 123.19)
 		)
 		(stroke
 			(width 0)
@@ -7444,16 +7444,6 @@
 		)
 		(uuid "3b8e6655-d96b-4f87-b34e-12d87ff8e2c4")
 	)
-	(label "I²C_INT"
-		(at 149.86 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3f63fa50-e7d5-401e-a090-4a2bd20a4415")
-	)
 	(label "SWCLK"
 		(at 29.21 120.65 0)
 		(effects
@@ -7493,16 +7483,6 @@
 			(justify right bottom)
 		)
 		(uuid "519cfdfb-d03b-4e9f-9d21-aa746713f878")
-	)
-	(label "I²C_SDA"
-		(at 149.86 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5965bbc1-55de-45ff-98bc-747f5be6325f")
 	)
 	(label "D+"
 		(at 31.75 267.97 0)
@@ -7974,16 +7954,6 @@
 		)
 		(uuid "fab7ccd0-8327-4612-ab24-90303ef43319")
 	)
-	(label "I²C_SCL"
-		(at 149.86 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "face50d6-a6ee-4325-8df7-2cde4bc4d3b8")
-	)
 	(label "SWD"
 		(at 57.15 120.65 0)
 		(effects
@@ -8071,6 +8041,17 @@
 		)
 		(uuid "46a0a4e4-bee9-49b5-ad95-47eab4216093")
 	)
+	(hierarchical_label "I²C_INT"
+		(shape input)
+		(at 165.1 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4810e163-9a51-4f29-a83c-e97c6146f8f6")
+	)
 	(hierarchical_label "~{MCU_BSY_OUT}"
 		(shape output)
 		(at 149.86 48.26 0)
@@ -8126,6 +8107,17 @@
 		)
 		(uuid "8c8f1ca7-2aac-400d-ac1c-203281ebc75b")
 	)
+	(hierarchical_label "I²C_SCL"
+		(shape output)
+		(at 165.1 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ea7673d-bbc4-4b26-b21a-79acd0d5712b")
+	)
 	(hierarchical_label "WL_SCK"
 		(shape output)
 		(at 149.86 156.21 0)
@@ -8137,17 +8129,6 @@
 		)
 		(uuid "a61dc017-295a-4864-8382-f56222274a8d")
 	)
-	(hierarchical_label "~{CONN_TYPE}"
-		(shape input)
-		(at 165.1 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "afd57781-3c50-42e8-89f1-083d3ead24d0")
-	)
 	(hierarchical_label "~{MCU_RST_IN}"
 		(shape input)
 		(at 149.86 50.8 0)
@@ -8158,6 +8139,17 @@
 			(justify left)
 		)
 		(uuid "b230c9c3-295d-4bf1-a52a-ac63264ced53")
+	)
+	(hierarchical_label "I²C_SDA"
+		(shape bidirectional)
+		(at 165.1 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d632d285-56bc-4e5d-90ec-0c022a435672")
 	)
 	(hierarchical_label "~{MCU_SD[15..0]}"
 		(shape bidirectional)
@@ -9465,7 +9457,7 @@
 		(dnp no)
 		(uuid "3b41b5d6-0844-4655-9afe-461dc413b137")
 		(property "Reference" "R55"
-			(at 105.156 209.55 0)
+			(at 104.902 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9473,7 +9465,7 @@
 			)
 		)
 		(property "Value" "1kΩ"
-			(at 105.664 211.328 0)
+			(at 104.902 211.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9817,7 +9809,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 29.21 53.34 0)
+		(at 29.21 54.61 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9826,7 +9818,7 @@
 		(dnp no)
 		(uuid "48d4b8ec-33d8-4cf4-8d51-6c068a3bd3ac")
 		(property "Reference" "#PWR02"
-			(at 29.21 59.69 0)
+			(at 29.21 60.96 0)
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -9835,7 +9827,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 57.15 0)
+			(at 29.21 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9843,7 +9835,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 53.34 0)
+			(at 29.21 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9852,7 +9844,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 53.34 0)
+			(at 29.21 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9861,7 +9853,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.21 53.34 0)
+			(at 29.21 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10616,15 +10608,15 @@
 		(dnp no)
 		(uuid "684f7d75-6a98-49bc-af91-d643e303a633")
 		(property "Reference" "R66"
-			(at 170.18 152.4 90)
+			(at 171.958 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4k7"
-			(at 167.64 152.4 90)
+		(property "Value" "4.7kΩ"
+			(at 171.958 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10799,8 +10791,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 167.64 143.764 0)
+		(property "Value" "+3.3V"
+			(at 167.64 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11799,7 +11791,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 187.96 111.76 0)
+		(at 185.42 111.76 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11808,15 +11800,15 @@
 		(dnp no)
 		(uuid "b138f5af-1839-4f1c-9fe2-8d5d20f3f479")
 		(property "Reference" "R57"
-			(at 185.42 111.76 90)
+			(at 189.484 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "4k7"
-			(at 187.96 111.76 90)
+		(property "Value" "4.7kΩ"
+			(at 189.484 113.538 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11824,7 +11816,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 186.182 111.76 90)
+			(at 183.642 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11833,7 +11825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 111.76 0)
+			(at 185.42 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11842,7 +11834,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 111.76 0)
+			(at 185.42 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11850,7 +11842,7 @@
 			)
 		)
 		(property "LCSC" "C23162"
-			(at 187.96 111.76 0)
+			(at 185.42 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11859,7 +11851,7 @@
 			)
 		)
 		(property "LCSC Part #" "C23162"
-			(at 187.96 111.76 0)
+			(at 185.42 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13194,7 +13186,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 187.96 116.84 0)
+		(at 185.42 116.84 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13203,7 +13195,7 @@
 		(dnp no)
 		(uuid "f8bc8ad8-8156-457f-9b2e-1b87a61a5d2a")
 		(property "Reference" "#PWR025"
-			(at 187.96 123.19 0)
+			(at 185.42 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13212,7 +13204,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 120.65 0)
+			(at 185.42 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13220,7 +13212,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 116.84 0)
+			(at 185.42 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13229,7 +13221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 116.84 0)
+			(at 185.42 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13238,7 +13230,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 116.84 0)
+			(at 185.42 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)

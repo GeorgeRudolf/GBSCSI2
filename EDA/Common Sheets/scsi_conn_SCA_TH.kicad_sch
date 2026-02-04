@@ -5,7 +5,7 @@
 	(uuid "c8313795-8294-40bb-a78a-c67f3ac99c6c")
 	(paper "A5" portrait)
 	(title_block
-		(title "GBSCSI2 Common Platform - SCSI Headers, 2mm/2.54mm")
+		(title "GBSCSI2 Common Platform - SCA SCSI Connector, Thru Hole")
 		(date "2026-02-01")
 		(rev "2.0")
 		(comment 1 "Drawn by George R. M.")
@@ -2934,6 +2934,12 @@
 		(uuid "34b1a953-8c4b-4ae5-b122-5daebd03e701")
 	)
 	(junction
+		(at 100.33 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "357cc1dd-1ade-4a02-87c8-25efb3f8ba9b")
+	)
+	(junction
 		(at 100.33 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3425,7 +3431,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 146.05) (xy 100.33 139.7)
+			(xy 100.33 146.05) (xy 100.33 144.78)
 		)
 		(stroke
 			(width 0)
@@ -3992,6 +3998,16 @@
 			(type default)
 		)
 		(uuid "7291c62b-874b-4434-b6ec-eb7c70778f85")
+	)
+	(wire
+		(pts
+			(xy 100.33 144.78) (xy 100.33 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "730a224d-23af-424e-9efc-783c2fe70345")
 	)
 	(wire
 		(pts
@@ -5519,6 +5535,73 @@
 			(project "GBSCSI2_2.5SCA_TH_235x"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/e68c1f1b-455b-4aa0-aecf-801739b3b8ff"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 100.33 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa8b2004-1f44-4b31-ac88-e99163142a85")
+		(property "Reference" "#FLG07"
+			(at 98.425 144.78 0)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 96.52 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 100.33 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74482be1-b4ad-47dd-805a-0f43461d8ed7")
+		)
+		(instances
+			(project "GBSCSI2_2.5SCA_TH_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/e68c1f1b-455b-4aa0-aecf-801739b3b8ff"
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
