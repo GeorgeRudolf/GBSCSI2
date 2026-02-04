@@ -1,0 +1,5216 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "fba91127-02af-4eb8-b452-d6cc5e220a33")
+	(paper "A5" portrait)
+	(title_block
+		(title "GBSCSI2 Common Platform - Termination, Narrow")
+		(date "2026-02-01")
+		(rev "2.0")
+		(comment 1 "Drawn by George R. M.")
+	)
+	(lib_symbols
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:AO3401A"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AO3401A"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AO3401A_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AO3401A_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+2V8"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+2V8"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+2V8\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+2V8_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+2V8_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+2V8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 105.41 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "062a99e2-e99b-4628-b3b4-c856cce7fd30")
+	)
+	(junction
+		(at 72.39 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09d725ab-8f4f-4047-9f31-c10a0a633bcb")
+	)
+	(junction
+		(at 105.41 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23615bd0-53e8-4d9f-a70e-50a5debe5a6d")
+	)
+	(junction
+		(at 72.39 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d5f2c42-89ad-4ce7-be39-c49d74a34ecc")
+	)
+	(junction
+		(at 115.57 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "309afea5-7d07-4f73-9588-33a404fd929a")
+	)
+	(junction
+		(at 72.39 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33fbb030-f2c3-4b11-8489-e27f38ec2026")
+	)
+	(junction
+		(at 105.41 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3641999b-93a8-471e-96ec-b6fd11425eaa")
+	)
+	(junction
+		(at 105.41 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38438095-0e82-42fe-ac23-e53f16336e9d")
+	)
+	(junction
+		(at 110.49 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "500424a9-cc17-4447-8e94-66b0a0878b07")
+	)
+	(junction
+		(at 115.57 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59da9eaf-c176-49d2-96e5-8a8da539d511")
+	)
+	(junction
+		(at 110.49 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fcc28ae-b036-4f1f-bdd6-c1e3414b7747")
+	)
+	(junction
+		(at 110.49 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "636c5735-fac1-4c03-bad7-795be6448583")
+	)
+	(junction
+		(at 110.49 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ce96527-f669-4fcc-9d7f-4946e63df653")
+	)
+	(junction
+		(at 115.57 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71170c3d-c060-4c6c-bce2-b2572336b61e")
+	)
+	(junction
+		(at 105.41 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73005cc5-3479-4498-9f90-0273367d2cdf")
+	)
+	(junction
+		(at 72.39 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e172a71-ecf6-4013-bd45-18b6f0a25143")
+	)
+	(junction
+		(at 105.41 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8184de88-d5a9-49af-8c93-08d6cf835878")
+	)
+	(junction
+		(at 72.39 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8295b411-74cb-4c9b-a474-d45b3473b5af")
+	)
+	(junction
+		(at 105.41 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "897d97a3-fd62-40b1-9536-c10bd7564154")
+	)
+	(junction
+		(at 110.49 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89db2d6a-efb2-4520-940c-a886fee9a34c")
+	)
+	(junction
+		(at 110.49 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c8905d3-c81e-48bd-9d15-77b75431c550")
+	)
+	(junction
+		(at 72.39 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9593dea8-69bc-4916-8045-6570876aa263")
+	)
+	(junction
+		(at 115.57 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ad4fdd2-f793-4e80-b6f7-d2566c97ff74")
+	)
+	(junction
+		(at 110.49 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b3f474e-af32-414e-b50c-73c382b867cb")
+	)
+	(junction
+		(at 115.57 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1883d37-3035-4e46-b28d-dc9a1df988e0")
+	)
+	(junction
+		(at 115.57 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5475acd-a751-45e5-9b5d-7188b9383cfc")
+	)
+	(junction
+		(at 72.39 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9c7181d-2b8a-438f-aa18-fff4143279b2")
+	)
+	(junction
+		(at 105.41 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1020d3e-c655-4fc5-bf7e-0ce193b835c7")
+	)
+	(junction
+		(at 110.49 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc5eb5aa-a74b-46f6-a355-869a4a3446d7")
+	)
+	(junction
+		(at 72.39 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd9c46b5-8845-441e-b5c8-1889aa765a24")
+	)
+	(junction
+		(at 105.41 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4fd4161-1110-4c0b-b6ec-2cf00dc5a2e0")
+	)
+	(junction
+		(at 115.57 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe592e31-80c0-4665-a6ff-2829ac984e02")
+	)
+	(bus_entry
+		(at 40.64 107.95)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b4aef3b-8059-4ae9-8787-f4076afdc503")
+	)
+	(bus_entry
+		(at 40.64 25.4)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37125ac3-12be-4396-bf98-99d71cf98601")
+	)
+	(bus_entry
+		(at 40.64 140.97)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bf76695-f7ca-4a7e-88df-56755d41d3e2")
+	)
+	(bus_entry
+		(at 40.64 41.91)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a476a037-49df-4de5-a2c9-c42379a12d3b")
+	)
+	(bus_entry
+		(at 40.64 91.44)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8e32eef-5600-409c-8e8f-a80d89a616fc")
+	)
+	(bus_entry
+		(at 40.64 58.42)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd9ef919-d4f9-40d3-b03f-83550ba7b342")
+	)
+	(bus_entry
+		(at 40.64 74.93)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be536b00-4952-440a-a52d-2aa946346a37")
+	)
+	(bus_entry
+		(at 40.64 124.46)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceeaaf6a-5a8f-4e29-9f40-43ffaadf5c4c")
+	)
+	(wire
+		(pts
+			(xy 115.57 33.02) (xy 115.57 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06ed49b5-1f3a-4d66-a499-e966eb8e7ac2")
+	)
+	(wire
+		(pts
+			(xy 60.96 140.97) (xy 62.23 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08850db7-8f7b-42eb-a3eb-2cf4c6bca9a3")
+	)
+	(wire
+		(pts
+			(xy 105.41 115.57) (xy 115.57 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09025bfa-eb75-4d42-892f-be37bbaa21df")
+	)
+	(wire
+		(pts
+			(xy 99.06 124.46) (xy 100.33 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0afe49ed-6dfa-475d-b63a-086521e86edd")
+	)
+	(wire
+		(pts
+			(xy 99.06 91.44) (xy 100.33 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d2daeb5-7a72-4eff-ba39-096bf1833219")
+	)
+	(wire
+		(pts
+			(xy 99.06 140.97) (xy 100.33 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dc3b493-35b0-4552-b471-08153137a09a")
+	)
+	(wire
+		(pts
+			(xy 105.41 33.02) (xy 115.57 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13794afa-0ccc-404b-b6ce-30f1d173ff74")
+	)
+	(wire
+		(pts
+			(xy 72.39 107.95) (xy 72.39 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "169517f2-0e37-4132-85fb-5460eb446062")
+	)
+	(wire
+		(pts
+			(xy 93.98 25.4) (xy 92.71 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1848a8e3-bb4e-4e71-96f7-5ca8e037e070")
+	)
+	(wire
+		(pts
+			(xy 55.88 41.91) (xy 40.64 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b43d515-410e-4b57-82c8-1d3acf5b0591")
+	)
+	(wire
+		(pts
+			(xy 55.88 157.48) (xy 54.61 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d18d982-338d-4b1b-b44e-77e06fc5eadb")
+	)
+	(wire
+		(pts
+			(xy 99.06 107.95) (xy 100.33 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f80870a-a717-486e-b392-9b6ae594e8ce")
+	)
+	(wire
+		(pts
+			(xy 55.88 74.93) (xy 40.64 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28392bbc-020b-4b9c-9331-cc970fb2961b")
+	)
+	(wire
+		(pts
+			(xy 55.88 58.42) (xy 40.64 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29c09f12-30fe-49bb-96ae-beee8c9d2c7c")
+	)
+	(bus
+		(pts
+			(xy 38.1 143.51) (xy 38.1 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d910ac8-8dbf-4320-be9e-1e4fe495a207")
+	)
+	(wire
+		(pts
+			(xy 60.96 157.48) (xy 62.23 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2f687e-c837-4df2-b3aa-f9e2c839973e")
+	)
+	(wire
+		(pts
+			(xy 60.96 41.91) (xy 62.23 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3141f18d-522b-425b-9914-0f0c42bfb7a6")
+	)
+	(wire
+		(pts
+			(xy 93.98 124.46) (xy 92.71 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35fcf9c5-e0b3-4a51-a9d2-48bf111e7f3d")
+	)
+	(wire
+		(pts
+			(xy 93.98 41.91) (xy 92.71 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "360744f1-7704-4e08-ad84-a025a719ef9f")
+	)
+	(wire
+		(pts
+			(xy 72.39 41.91) (xy 72.39 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d9bd30-11a0-4ecd-9014-bd8b34be3dd7")
+	)
+	(wire
+		(pts
+			(xy 55.88 91.44) (xy 40.64 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "414e3eda-f30d-4dfe-ab4e-306d4374ca48")
+	)
+	(wire
+		(pts
+			(xy 55.88 107.95) (xy 40.64 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "428d47ed-ca2e-48a7-a7ba-1255d504a3e8")
+	)
+	(wire
+		(pts
+			(xy 72.39 58.42) (xy 72.39 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "449206ca-58e4-4811-bc7f-be5de94b3cab")
+	)
+	(wire
+		(pts
+			(xy 99.06 25.4) (xy 100.33 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b42fa5a-cb2b-4578-a752-39993c1a7e95")
+	)
+	(wire
+		(pts
+			(xy 72.39 20.32) (xy 72.39 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c217c07-1425-46c8-94de-b410f6b9837b")
+	)
+	(wire
+		(pts
+			(xy 67.31 165.1) (xy 105.41 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c547247-9e42-4f2f-a35f-49feba1b855c")
+	)
+	(wire
+		(pts
+			(xy 99.06 74.93) (xy 100.33 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f4d8bed-5ba9-456a-9a2c-3275965b4dc3")
+	)
+	(wire
+		(pts
+			(xy 67.31 115.57) (xy 105.41 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "557b3b5a-300e-463b-9775-44cd023e6009")
+	)
+	(wire
+		(pts
+			(xy 60.96 91.44) (xy 62.23 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58ad9d82-808b-4b71-8819-5eb8fb1aec83")
+	)
+	(wire
+		(pts
+			(xy 115.57 132.08) (xy 115.57 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a7a4083-55e7-4483-8db2-660abe3475c5")
+	)
+	(bus
+		(pts
+			(xy 38.1 44.45) (xy 38.1 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ae68810-cf4f-4305-80cf-487fff317921")
+	)
+	(wire
+		(pts
+			(xy 105.41 99.06) (xy 115.57 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f379840-994b-4ef3-91e0-9e22d2f7fba3")
+	)
+	(wire
+		(pts
+			(xy 60.96 58.42) (xy 62.23 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60c015df-3bb9-4c47-a044-de611fa4e8f3")
+	)
+	(wire
+		(pts
+			(xy 115.57 115.57) (xy 115.57 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662b1d7f-ca86-44a5-b288-23a27dc72408")
+	)
+	(wire
+		(pts
+			(xy 110.49 74.93) (xy 110.49 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69158a9c-584c-437d-af96-79403ac62418")
+	)
+	(wire
+		(pts
+			(xy 115.57 99.06) (xy 115.57 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d01dfd1-903c-4ca1-83fc-8147b7fb257f")
+	)
+	(wire
+		(pts
+			(xy 72.39 140.97) (xy 72.39 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7298a761-9d13-4ec0-8fb6-acc78e94dbb2")
+	)
+	(wire
+		(pts
+			(xy 105.41 165.1) (xy 115.57 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "788080e9-4c5b-4233-8bd1-095b260e2dc3")
+	)
+	(wire
+		(pts
+			(xy 99.06 58.42) (xy 100.33 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d1cad45-4877-4208-b05d-cbfa94e068e7")
+	)
+	(wire
+		(pts
+			(xy 67.31 132.08) (xy 105.41 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d1ce9d2-3b77-4a99-83f8-f2a722c304a7")
+	)
+	(wire
+		(pts
+			(xy 115.57 66.04) (xy 115.57 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dc59f60-a352-455f-950a-9bc545b0177f")
+	)
+	(wire
+		(pts
+			(xy 55.88 124.46) (xy 40.64 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f450372-e555-412e-8a20-b951c9bc9220")
+	)
+	(bus
+		(pts
+			(xy 38.1 127) (xy 38.1 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "800cd6dd-78db-49d0-863a-176c363eec0f")
+	)
+	(wire
+		(pts
+			(xy 67.31 33.02) (xy 105.41 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8369c2f8-7439-43af-b64f-bc806060f1ef")
+	)
+	(wire
+		(pts
+			(xy 67.31 99.06) (xy 105.41 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e1869e-0b46-40d3-9c26-acf7f5619aac")
+	)
+	(wire
+		(pts
+			(xy 115.57 49.53) (xy 115.57 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91eef436-be67-414c-9c15-dbd350528e3c")
+	)
+	(wire
+		(pts
+			(xy 55.88 140.97) (xy 40.64 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92c1e38e-d97d-461e-b927-f4633d955b74")
+	)
+	(wire
+		(pts
+			(xy 110.49 41.91) (xy 110.49 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92cbe0dc-4c89-403a-91b8-3e26156107ec")
+	)
+	(wire
+		(pts
+			(xy 105.41 132.08) (xy 115.57 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d09b6e0-f3ac-4e58-ba1d-de3938cd72f8")
+	)
+	(wire
+		(pts
+			(xy 99.06 41.91) (xy 100.33 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0a9add0-0992-4cca-bc98-6c40557274eb")
+	)
+	(wire
+		(pts
+			(xy 110.49 91.44) (xy 110.49 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a32c7a19-648d-497b-a88a-30d85e5e4b07")
+	)
+	(wire
+		(pts
+			(xy 115.57 148.59) (xy 123.19 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a33478ca-3172-4255-a020-a8147f6ae419")
+	)
+	(wire
+		(pts
+			(xy 105.41 82.55) (xy 115.57 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7b27dda-1030-40f2-86cf-843f7139ff21")
+	)
+	(wire
+		(pts
+			(xy 110.49 58.42) (xy 110.49 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7d78ff0-332d-4f74-8cae-9b19a90e84b7")
+	)
+	(wire
+		(pts
+			(xy 60.96 74.93) (xy 62.23 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9270ef8-d5ac-4641-aeb2-d6755aab85d2")
+	)
+	(bus
+		(pts
+			(xy 38.1 77.47) (xy 38.1 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9adfde9-b84f-43d6-bf21-c67691d1d1a4")
+	)
+	(wire
+		(pts
+			(xy 55.88 25.4) (xy 40.64 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9c86066-e2cc-48a5-8404-cdfc5f409fab")
+	)
+	(wire
+		(pts
+			(xy 110.49 20.32) (xy 110.49 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aab3375f-9138-4318-89b3-fe6d13a5cb28")
+	)
+	(wire
+		(pts
+			(xy 110.49 25.4) (xy 110.49 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abec7d65-9b58-48c9-b6dd-9fd8a73675a2")
+	)
+	(wire
+		(pts
+			(xy 115.57 82.55) (xy 115.57 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0bc4ff4-3d1b-46ff-94ad-ad0687ebf1a7")
+	)
+	(wire
+		(pts
+			(xy 60.96 124.46) (xy 62.23 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b32516c6-a689-4472-a1a5-7da2ecee5bfe")
+	)
+	(wire
+		(pts
+			(xy 93.98 107.95) (xy 92.71 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4481252-a454-41e1-ab4c-49c4de1ac600")
+	)
+	(wire
+		(pts
+			(xy 72.39 25.4) (xy 72.39 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b76a0f2b-008b-4599-b927-0815dc157da1")
+	)
+	(bus
+		(pts
+			(xy 38.1 60.96) (xy 38.1 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb727cd2-d101-48ec-9063-4994fefade0d")
+	)
+	(wire
+		(pts
+			(xy 93.98 157.48) (xy 92.71 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3886350-4c70-47aa-8f19-ab3a2a08c57f")
+	)
+	(wire
+		(pts
+			(xy 93.98 74.93) (xy 92.71 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4ce6b44-7bf1-4e46-bd3a-478c35179ee4")
+	)
+	(wire
+		(pts
+			(xy 67.31 49.53) (xy 105.41 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7e1d060-7701-49b8-937f-cee3a18f1af1")
+	)
+	(wire
+		(pts
+			(xy 110.49 124.46) (xy 110.49 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9491908-a147-4fc8-94dd-654df6beb9d1")
+	)
+	(bus
+		(pts
+			(xy 38.1 110.49) (xy 38.1 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d04aedcc-cf23-48d6-a77c-cc975c5ff925")
+	)
+	(wire
+		(pts
+			(xy 105.41 66.04) (xy 115.57 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2bd8312-2d02-4f31-929d-204b1d1d3e69")
+	)
+	(wire
+		(pts
+			(xy 105.41 49.53) (xy 115.57 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d63b1b4d-ad0c-4f56-b079-3d05546f912c")
+	)
+	(wire
+		(pts
+			(xy 72.39 74.93) (xy 72.39 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d69a7fa5-e20b-48f0-b1f9-9cb722eafabd")
+	)
+	(wire
+		(pts
+			(xy 115.57 148.59) (xy 115.57 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a245a6-9fae-4a69-8f2a-6e565ac35c0f")
+	)
+	(wire
+		(pts
+			(xy 67.31 66.04) (xy 105.41 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcae2c7d-70eb-4647-bc2b-8dad7b284ebc")
+	)
+	(bus
+		(pts
+			(xy 35.56 148.59) (xy 38.1 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded6797b-19f2-4bf2-a241-ae06e31dbc82")
+	)
+	(wire
+		(pts
+			(xy 110.49 140.97) (xy 110.49 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ea8529-65cc-44ea-8d24-b026069b8459")
+	)
+	(wire
+		(pts
+			(xy 67.31 82.55) (xy 105.41 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5585c1b-593f-406d-8fd5-e31dcda99fca")
+	)
+	(wire
+		(pts
+			(xy 72.39 91.44) (xy 72.39 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5ef0b5c-f54d-435e-a932-90616859f538")
+	)
+	(wire
+		(pts
+			(xy 99.06 157.48) (xy 100.33 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e654e7c5-027d-459c-88e3-022f4196af2b")
+	)
+	(bus
+		(pts
+			(xy 38.1 93.98) (xy 38.1 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7b43e1a-3914-44cf-99ad-0aa9fa7428d6")
+	)
+	(wire
+		(pts
+			(xy 60.96 25.4) (xy 62.23 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0ebaeb4-e4b2-4ff5-a4a3-08574b075630")
+	)
+	(wire
+		(pts
+			(xy 110.49 107.95) (xy 110.49 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2a342ff-0868-4ca9-8910-b34e75adef59")
+	)
+	(wire
+		(pts
+			(xy 93.98 91.44) (xy 92.71 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3a0ce34-5062-4675-81a0-25d20e27126a")
+	)
+	(wire
+		(pts
+			(xy 105.41 148.59) (xy 115.57 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f831f8c2-a4c9-4013-a4f4-41a26585ec5b")
+	)
+	(wire
+		(pts
+			(xy 67.31 148.59) (xy 105.41 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f978195f-44a9-4de4-916f-884c7bcb94e0")
+	)
+	(wire
+		(pts
+			(xy 60.96 107.95) (xy 62.23 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9aee717-dcf9-463e-912a-9fb5e6aca54d")
+	)
+	(bus
+		(pts
+			(xy 38.1 27.94) (xy 38.1 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ef6211-39f7-40b6-9638-aab2a865d5d7")
+	)
+	(wire
+		(pts
+			(xy 72.39 124.46) (xy 72.39 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fab61aa0-452c-4698-a909-80c9e33db1db")
+	)
+	(wire
+		(pts
+			(xy 93.98 140.97) (xy 92.71 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbfc746d-a58f-485e-b9a8-658c14e9902b")
+	)
+	(wire
+		(pts
+			(xy 93.98 58.42) (xy 92.71 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe8e1058-9455-4f80-8d3c-a0e4d073c06c")
+	)
+	(label "~{SCSI_SD0}"
+		(at 45.72 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14959b31-ca9f-434f-9752-660880d8d05d")
+	)
+	(label "~{SCSI_SD6}"
+		(at 45.72 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e3468f7-1ac4-4b8e-bbe6-87a8b5f2823d")
+	)
+	(label "~{SCSI_SD7}"
+		(at 45.72 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2e96630d-4fd6-48e5-99ef-7f211f68bbcc")
+	)
+	(label "~{SCSI_SD4}"
+		(at 45.72 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4fd8e844-8d55-4e83-9b55-91677c19e1f5")
+	)
+	(label "~{SCSI_SD2}"
+		(at 45.72 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7918f308-1c92-403d-a4da-769b00ba7f4c")
+	)
+	(label "~{SCSI_SD5}"
+		(at 45.72 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9cf90116-1ec1-4d98-a565-5cb0bb4b834a")
+	)
+	(label "~{SCSI_SD1}"
+		(at 45.72 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a141fcde-7d05-44ec-a34b-de86863a21d9")
+	)
+	(label "~{SCSI_SD3}"
+		(at 45.72 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca3b5d92-db41-4a12-87f2-13116b8b44fd")
+	)
+	(hierarchical_label "SCSI_~{C}{slash}D"
+		(shape output)
+		(at 92.71 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00d0d20a-d7bc-4a6c-8a20-e0d1c52a304b")
+	)
+	(hierarchical_label "~{SCSI_SD[7..0]}"
+		(shape output)
+		(at 35.56 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "05df5324-78d2-4b1c-ba1d-77e53a421ca6")
+	)
+	(hierarchical_label "~{SCSI_SEL}"
+		(shape output)
+		(at 92.71 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10aee9c4-d8ce-4094-be35-be180a848b4c")
+	)
+	(hierarchical_label "SCSI_~{ATTN}"
+		(shape output)
+		(at 92.71 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12045fff-5901-4093-abc6-a4162ee9c4ef")
+	)
+	(hierarchical_label "SCSI_I{slash}~{O}"
+		(shape output)
+		(at 92.71 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ae4d9ea-eb2a-4474-8c0f-1fc04ea5bd0d")
+	)
+	(hierarchical_label "~{SCSI_RST}"
+		(shape output)
+		(at 92.71 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "34cdbb9a-04b0-4998-8e28-5fad3c31ac03")
+	)
+	(hierarchical_label "~{SCSI_MSG}"
+		(shape output)
+		(at 92.71 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "696151b6-b1a8-4b85-a802-d17504fad729")
+	)
+	(hierarchical_label "SCSI_~{REQ}"
+		(shape output)
+		(at 92.71 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5f1618e-c771-4ac8-95c3-1aa38e9b155e")
+	)
+	(hierarchical_label "~{SCSI_ACK}"
+		(shape output)
+		(at 92.71 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df672bb5-ee3e-4cfe-baec-9c0393d44407")
+	)
+	(hierarchical_label "~{SCSI_BSY}"
+		(shape output)
+		(at 92.71 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e9c16f31-b2de-4bb3-8273-2025de652fbe")
+	)
+	(hierarchical_label "~{TERM_EN}"
+		(shape input)
+		(at 123.19 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f62bb347-0962-4e2e-aa47-9c6e67483c41")
+	)
+	(hierarchical_label "~{SCSI_SDP}"
+		(shape output)
+		(at 54.61 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe91f1cd-f48d-45e8-bc72-2e8caa21edae")
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 58.42 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19640352-23e1-41b8-9e20-c289c449f8ec")
+		(property "Reference" "R39"
+			(at 58.42 153.162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "110Ω"
+			(at 58.42 155.702 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 58.42 159.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22781"
+			(at 58.42 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22781"
+			(at 58.42 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9b721c8-97fd-4762-9278-5bc1aa55a042")
+		)
+		(pin "2"
+			(uuid "8b070eb2-83bb-40bc-946f-87de69b71edb")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 105.41 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d06d9dd-9751-4f19-bfee-cfab9adab0a5")
+		(property "Reference" "Q10"
+			(at 105.41 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 105.41 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 107.315 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 105.41 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15127"
+			(at 105.41 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15127"
+			(at 105.41 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9eba823-2fc7-4b55-aaee-3770807c4ca5")
+		)
+		(pin "2"
+			(uuid "9842f11d-e2d9-4482-af98-af8975c8112a")
+		)
+		(pin "3"
+			(uuid "4a6df19b-3489-4ea3-a655-d30d40130cb8")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 58.42 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26f8d0d8-5db7-4931-be59-af9c15ba5304")
+		(property "Reference" "R35"
+			(at 58.42 87.122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "110Ω"
+			(at 58.42 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 58.42 93.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22781"
+			(at 58.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22781"
+			(at 58.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7024fa30-5c7c-485e-9218-0353d07d8332")
+		)
+		(pin "2"
+			(uuid "f2ae1b9a-b1a3-4e92-9056-228c30fc7d8a")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 105.41 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3299fe43-6db4-475c-aa3d-a781a534ab82")
+		(property "Reference" "Q16"
+			(at 105.41 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 105.41 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 107.315 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 105.41 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15127"
+			(at 105.41 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15127"
+			(at 105.41 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97964860-ecf7-418a-9d10-1605bbe39f80")
+		)
+		(pin "2"
+			(uuid "83db6507-7d1c-46ce-b9cf-ffddacea3a17")
+		)
+		(pin "3"
+			(uuid "489fc777-b49d-420e-a9c1-410ac9d5136e")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "Q16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 67.31 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d721999-727e-4c76-a046-440301552581")
+		(property "Reference" "Q6"
+			(at 67.31 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 67.31 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 69.215 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 67.31 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15127"
+			(at 67.31 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15127"
+			(at 67.31 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0a0c398-e453-4010-a562-f238a96627f3")
+		)
+		(pin "2"
+			(uuid "f1dd0a0b-a7ec-4f8c-8a91-84a0d5c1c5ad")
+		)
+		(pin "3"
+			(uuid "f32ff4e5-4d2f-4849-bf2b-9d75927a9938")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+2V8")
+		(at 72.39 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4162c920-3c06-489a-9225-eb3ba7467a8d")
+		(property "Reference" "#PWR071"
+			(at 72.39 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+2.8V"
+			(at 72.39 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75dceb16-a566-452a-bac6-39437e279d18")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 105.41 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43111aa5-bb52-45c5-bde4-acc62d152c43")
+		(property "Reference" "Q12"
+			(at 105.41 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 105.41 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 107.315 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 105.41 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15127"
+			(at 105.41 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15127"
+			(at 105.41 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ec8f9b5-caaf-40d9-acf4-f1a9a60fab58")
+		)
+		(pin "2"
+			(uuid "0ea133f4-5c3f-48b5-805f-80ed57b0a955")
+		)
+		(pin "3"
+			(uuid "15bdbe00-51ab-4865-aef2-774987ae65ca")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 96.52 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47e9973d-875a-4903-a439-4a90190b53ff")
+		(property "Reference" "R48"
+			(at 96.52 153.162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "110Ω"
+			(at 96.52 155.702 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 96.52 159.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22781"
+			(at 96.52 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22781"
+			(at 96.52 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8dd9420-61f4-48a7-bd28-cf106eb00b9c")
+		)
+		(pin "2"
+			(uuid "34225ba3-7feb-4067-bbd5-9adb83ee15e8")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 96.52 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e4c3c4f-1dcc-400a-8537-7de0b9d3e964")
+		(property "Reference" "R45"
+			(at 96.52 103.632 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "110Ω"
+			(at 96.52 106.172 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 96.52 109.728 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22781"
+			(at 96.52 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22781"
+			(at 96.52 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fe6ecf2-37d7-4a7f-b855-89a2a4c371e5")
+		)
+		(pin "2"
+			(uuid "9ab19e32-95f6-4606-82ba-49f5a5453b55")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 58.42 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f63c519-7623-454b-a594-a0d68a587924")
+		(property "Reference" "R32"
+			(at 58.42 37.592 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "110Ω"
+			(at 58.42 40.132 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 58.42 43.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22781"
+			(at 58.42 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22781"
+			(at 58.42 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76bc5eaf-8167-4a1f-a2fc-3cd1d7ac59ef")
+		)
+		(pin "2"
+			(uuid "26b0bea5-6e77-410f-a9b2-884a38713d09")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 96.52 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "504fc4aa-9edc-4a7f-9255-49ba5087befe")
+		(property "Reference" "R43"
+			(at 96.52 70.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "110Ω"
+			(at 96.52 73.152 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 96.52 76.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22781"
+			(at 96.52 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22781"
+			(at 96.52 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3356b6c4-18ab-49d9-af80-6f5faa129cf5")
+		)
+		(pin "2"
+			(uuid "fe07ff8e-d240-4f15-bc66-bc1906446c79")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 105.41 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55518267-a514-41f3-bebe-f9a2f83b4b75")
+		(property "Reference" "Q14"
+			(at 105.41 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 105.41 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 107.315 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 105.41 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15127"
+			(at 105.41 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15127"
+			(at 105.41 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ee41d4a-60d3-4a0f-9281-15740e518ba7")
+		)
+		(pin "2"
+			(uuid "cce48551-419d-4619-819e-7d97fa66594e")
+		)
+		(pin "3"
+			(uuid "ca68d3bd-844c-4227-ae52-2f49c636b17d")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "Q14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 67.31 60.96 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67dd7402-8f6a-4cc6-9cc9-e7f717f97cf7")
+		(property "Reference" "Q3"
+			(at 67.31 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 67.31 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 69.215 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 67.31 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15127"
+			(at 67.31 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15127"
+			(at 67.31 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f625eda-3e9b-4c48-978a-970cde960ffa")
+		)
+		(pin "2"
+			(uuid "8f45c5c9-1a54-4cd0-a33b-69edce6153af")
+		)
+		(pin "3"
+			(uuid "ee338a7e-3b1a-4136-8416-bd11ac2a492f")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 58.42 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "688d98d6-f658-4ed0-8d4e-812af9c5d70f")
+		(property "Reference" "R37"
+			(at 58.42 120.142 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "110Ω"
+			(at 58.42 122.682 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 58.42 126.238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22781"
+			(at 58.42 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22781"
+			(at 58.42 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "108b60b3-d27d-4303-bb41-8ec04a326161")
+		)
+		(pin "2"
+			(uuid "a7ffd7a9-6b75-4f5d-9646-ce2aa1542517")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 58.42 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "68f9d84c-f68d-4854-9652-75c28dc36940")
+		(property "Reference" "R33"
+			(at 58.42 54.102 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "110Ω"
+			(at 58.42 56.642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 58.42 60.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22781"
+			(at 58.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22781"
+			(at 58.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b5ef1fb-cc9e-427c-b448-bfa1e6c4b73f")
+		)
+		(pin "2"
+			(uuid "97f8e1cf-56c9-45a0-beae-955adeb8c50a")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+2V8")
+		(at 110.49 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c93a25b-44d4-4454-bced-f3980afc63bf")
+		(property "Reference" "#PWR072"
+			(at 110.49 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+2.8V"
+			(at 110.49 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38b5257e-c671-487c-b8b0-753ba5ebad48")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 105.41 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6efa4b29-c0f6-4aec-a7aa-2955ee26ad73")
+		(property "Reference" "Q18"
+			(at 105.41 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 105.41 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 107.315 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 105.41 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15127"
+			(at 105.41 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15127"
+			(at 105.41 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34452186-0cbc-4223-af55-1266d1c87dcf")
+		)
+		(pin "2"
+			(uuid "27768ba1-d4a8-4df7-95ca-96536292f7bc")
+		)
+		(pin "3"
+			(uuid "6c6a4246-1101-4263-a421-865d098191fd")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "Q18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 58.42 74.93 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "75ae4b12-e29c-456e-8b88-5d45e822f33d")
+		(property "Reference" "R34"
+			(at 58.42 70.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "110Ω"
+			(at 58.42 73.152 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 58.42 76.708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22781"
+			(at 58.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22781"
+			(at 58.42 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d32e10d-6e15-4eba-abd1-9a9f6a3022bd")
+		)
+		(pin "2"
+			(uuid "e6f0b4f7-1280-43f9-87ca-a0da8940fc4d")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 67.31 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bd5b8be-f278-49ca-89da-aa0f7b2d0d0f")
+		(property "Reference" "Q5"
+			(at 67.31 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 67.31 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 69.215 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 67.31 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15127"
+			(at 67.31 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15127"
+			(at 67.31 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cc3d84f-ec56-467f-b7f5-5fe4033ce28a")
+		)
+		(pin "2"
+			(uuid "bd9266a6-61f8-441e-93d8-042345abbabb")
+		)
+		(pin "3"
+			(uuid "4e828958-f552-4f4c-93da-b0c9ff8a36f4")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 105.41 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82e93868-f21c-4b42-886e-a63d14984606")
+		(property "Reference" "Q17"
+			(at 105.41 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 105.41 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 107.315 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 105.41 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15127"
+			(at 105.41 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15127"
+			(at 105.41 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb9a06de-1cf8-42ac-a4cb-5c6d7c2843f8")
+		)
+		(pin "2"
+			(uuid "fa755547-4454-4335-86f6-ec04e87002e4")
+		)
+		(pin "3"
+			(uuid "612cc347-fbbc-46fa-b4ae-f0e656994ec7")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "Q17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 67.31 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84db0794-598a-4318-9933-b67b105c9e4d")
+		(property "Reference" "Q4"
+			(at 67.31 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 67.31 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 69.215 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 67.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15127"
+			(at 67.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15127"
+			(at 67.31 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b71e176-baab-4edf-96f0-95943f82f92b")
+		)
+		(pin "2"
+			(uuid "bd52158e-14fd-4278-a6b7-ff6be2aad8b9")
+		)
+		(pin "3"
+			(uuid "956eb298-3650-4aed-b43d-0fc3a970982f")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 96.52 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "903ce705-cc0e-413f-a6fc-e26654f15ed7")
+		(property "Reference" "R44"
+			(at 96.52 87.122 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "110Ω"
+			(at 96.52 89.662 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 96.52 93.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22781"
+			(at 96.52 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22781"
+			(at 96.52 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4afef36f-4d76-4970-a2c0-45deae56b2e3")
+		)
+		(pin "2"
+			(uuid "07f70270-032d-4d03-b174-b6b8d5f4b94e")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 96.52 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98edd821-7ee6-4931-a7c3-d3ace3f6b1cb")
+		(property "Reference" "R47"
+			(at 96.52 136.652 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "110Ω"
+			(at 96.52 139.192 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 96.52 142.748 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22781"
+			(at 96.52 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22781"
+			(at 96.52 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc0cfdc8-c69d-4023-9741-dedd6a74b259")
+		)
+		(pin "2"
+			(uuid "34a1a744-f340-42b3-9a85-c86233e5e70b")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 96.52 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2499779-e15c-4796-a1ab-f905a90e0a59")
+		(property "Reference" "R40"
+			(at 96.52 21.082 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "110Ω"
+			(at 96.52 23.622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 96.52 27.178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22781"
+			(at 96.52 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22781"
+			(at 96.52 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f4c391d-c6e3-4426-801f-9539a4a7820e")
+		)
+		(pin "2"
+			(uuid "39d8c6fd-dc6a-44ec-bbe5-88995f419340")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 58.42 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5c47420-d6bf-45af-be83-ad2badc74436")
+		(property "Reference" "R38"
+			(at 58.42 136.652 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "110Ω"
+			(at 58.42 139.192 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 58.42 142.748 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22781"
+			(at 58.42 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22781"
+			(at 58.42 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6236bccc-2712-4977-8410-f94104d53717")
+		)
+		(pin "2"
+			(uuid "0f217578-7fca-4a0c-8234-ea39665304dc")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 67.31 143.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1122c61-303d-4798-b85b-5f98549b4595")
+		(property "Reference" "Q8"
+			(at 67.31 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 67.31 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 69.215 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 67.31 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15127"
+			(at 67.31 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15127"
+			(at 67.31 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6176738-6b87-44cc-ae5e-3dabab57370e")
+		)
+		(pin "2"
+			(uuid "a808d458-a09d-4f32-bc81-cab62a7645cd")
+		)
+		(pin "3"
+			(uuid "ea52e698-9347-42d1-aaf8-cd3ecc505488")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 105.41 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c66d1dc9-a227-491b-9612-2839b1d9b55a")
+		(property "Reference" "Q15"
+			(at 105.41 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 105.41 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 107.315 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 105.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15127"
+			(at 105.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15127"
+			(at 105.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e28cfaa-aa70-4bcb-aa30-f0b0582ad098")
+		)
+		(pin "2"
+			(uuid "df0ad47b-0d13-4daf-b0f0-f5916f4ebc11")
+		)
+		(pin "3"
+			(uuid "e77a2728-bd94-4a26-a1ae-ef5775535e43")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "Q15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 58.42 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9d134aa-a5c4-4ea2-bcc5-8177c97e163a")
+		(property "Reference" "R36"
+			(at 58.42 103.632 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "110Ω"
+			(at 58.42 106.172 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 58.42 109.728 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22781"
+			(at 58.42 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22781"
+			(at 58.42 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c73afd98-aceb-4dba-b3e6-bbc0870a7ac6")
+		)
+		(pin "2"
+			(uuid "7cd86492-8737-4081-9a93-ac62ebcc1c1b")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 67.31 160.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccd41f92-9a07-4367-9e51-ffe72f55b8b0")
+		(property "Reference" "Q9"
+			(at 67.31 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 67.31 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 69.215 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 67.31 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15127"
+			(at 67.31 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15127"
+			(at 67.31 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91c6f607-1ce5-4682-9e0b-e70495e15587")
+		)
+		(pin "2"
+			(uuid "9928793e-f412-44bc-9070-fe75f31218bc")
+		)
+		(pin "3"
+			(uuid "f4c5684b-0114-4b8e-84ec-7adb29502282")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 58.42 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfaabe13-14b8-4ac8-a263-702d453f076d")
+		(property "Reference" "R31"
+			(at 58.42 21.082 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "110Ω"
+			(at 58.42 23.622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 58.42 27.178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22781"
+			(at 58.42 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22781"
+			(at 58.42 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3401dd4-9bf3-43b4-a19e-40d3c5b067fb")
+		)
+		(pin "2"
+			(uuid "e752e88a-4dfc-42cf-985b-7a7bb6d87804")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 67.31 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d51af068-bcdf-4e8d-9a2b-b9e9d14b4b6c")
+		(property "Reference" "Q7"
+			(at 67.31 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 67.31 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 69.215 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 67.31 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15127"
+			(at 67.31 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15127"
+			(at 67.31 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e4d8ac6-0b78-4e41-a136-a077f4e51b39")
+		)
+		(pin "2"
+			(uuid "c24358e8-87ed-43e2-a69e-88fd0c0d95bf")
+		)
+		(pin "3"
+			(uuid "fe50ce30-cfec-48d2-8ea3-2ba112a8f457")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 96.52 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5e61144-dc8a-4162-937f-d22321bde493")
+		(property "Reference" "R41"
+			(at 96.52 37.592 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "110Ω"
+			(at 96.52 40.132 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 96.52 43.688 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22781"
+			(at 96.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22781"
+			(at 96.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "701697d5-9e96-4008-aa19-68826d2a8101")
+		)
+		(pin "2"
+			(uuid "eff0face-107a-40d1-950b-b87c5bc374a3")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 96.52 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e419494e-968b-4d09-92c2-32d7c137c6b1")
+		(property "Reference" "R42"
+			(at 96.52 54.102 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "110Ω"
+			(at 96.52 56.642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 96.52 60.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22781"
+			(at 96.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22781"
+			(at 96.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b52a614-6696-40bc-9b98-05e4f3535040")
+		)
+		(pin "2"
+			(uuid "bb91de53-13cf-40b6-a3ea-015714cdc674")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 67.31 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5c5fda5-ef06-438e-879f-e73a2fff130c")
+		(property "Reference" "Q2"
+			(at 67.31 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 67.31 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 69.215 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 67.31 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15127"
+			(at 67.31 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15127"
+			(at 67.31 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4978ffea-3c6e-4842-b690-646aa5e82c58")
+		)
+		(pin "2"
+			(uuid "ce06e952-3eeb-488e-a708-5022a6f66e48")
+		)
+		(pin "3"
+			(uuid "71806c30-7b26-42a5-acc5-cee91b679bca")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 67.31 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6114a9e-e38e-4dc4-a4b1-8f7d66a53914")
+		(property "Reference" "Q1"
+			(at 67.31 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 67.31 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 69.215 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 67.31 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15127"
+			(at 67.31 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15127"
+			(at 67.31 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18fd0642-c580-489a-b0d8-18fdc70aea70")
+		)
+		(pin "2"
+			(uuid "7dc43413-f738-45ca-856b-1bb33d5b1c13")
+		)
+		(pin "3"
+			(uuid "7f5fd395-9745-4041-8e59-3ee64bdec823")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 105.41 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1dc7608-430d-488a-84f3-8564bd800c0b")
+		(property "Reference" "Q13"
+			(at 105.41 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 105.41 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 107.315 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 105.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15127"
+			(at 105.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15127"
+			(at 105.41 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "274cbecb-33e4-4b41-b32f-046957ec06c5")
+		)
+		(pin "2"
+			(uuid "9de03d6a-ae2c-4676-9ac2-c8954104e6c1")
+		)
+		(pin "3"
+			(uuid "34302b03-f4e0-4b83-bb29-7fea8e98d9a4")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "Q13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3401A")
+		(at 105.41 44.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f562ae01-8b1b-4ece-8d60-b76fb209c3fb")
+		(property "Reference" "Q11"
+			(at 105.41 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 105.41 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 107.315 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 105.41 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15127"
+			(at 105.41 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15127"
+			(at 105.41 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37421242-3dcf-4ad5-adb8-7faa5ae26664")
+		)
+		(pin "2"
+			(uuid "94e6df61-e9ac-4eaf-85b5-c7c050f23215")
+		)
+		(pin "3"
+			(uuid "dfbd91f7-5436-43ae-9e81-c958224edf2c")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 96.52 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffe73b1a-ee36-443c-ac46-6dada95d3abd")
+		(property "Reference" "R46"
+			(at 96.52 120.142 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "110Ω"
+			(at 96.52 122.682 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 96.52 126.238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22781"
+			(at 96.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22781"
+			(at 96.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "339e9068-9cd6-4a37-be51-e28338a12e91")
+		)
+		(pin "2"
+			(uuid "41fda69c-51a5-460a-9788-5ef8192eb084")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/f13f14f2-5e7c-4621-9244-cc5995dcc682"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

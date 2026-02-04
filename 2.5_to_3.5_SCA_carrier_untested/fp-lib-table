@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "SCA")(type "KiCad")(uri "${KIPRJMOD}/SCA.pretty")(options "")(descr ""))
-)

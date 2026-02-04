@@ -1,0 +1,1 @@
+JLC RPi Pico pricing is less than ideal - when presented with checkboxes for each component type, you can uncheck the Pico and install your own when boards arrive. Or, leave checked and enjoy the commodity of having them assemble it for you for a few extra bucks.

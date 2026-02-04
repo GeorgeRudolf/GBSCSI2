@@ -21,12 +21,13 @@ OR
 
 # The (very important) details:
 
-1. The Wide SCSI variants are BROKEN. They're incomplete and not currently usable. This is due to me no longer having as much free time to work on my projects. I also learned Rabbit Hole Computing was doing their own thing in parallel, and they asked me to unify features as it made no sense to duplicate work which would result in having to support different board variants in software. These boards will eventually be redesigned, but are currently stale. In the meanwhile:
+1. GBSCSI2 is being moved to a revised hierarchical design that allows for modularity and ease of customization, while maintaining uniformity. The whole project is considered WIP - this warning will be removed once things are tested. Previous versions have been moved to an archive folder. More about them below.
 
+2. The archived Wide SCSI variants are BROKEN. They're incomplete and not usable. 
 Rabbit Hole Computing has forked these designs, corrected their flaws and finished the implementation in a manner compatible with standard ZuluSCSI firmware. This fork is now available at https://github.com/ZuluSCSI/ZuluSCSI-Ultra-Wide-OSHW-RP2350B.
 
-2. The variants tagged "untested" are exactly that. I've never personally made boards from them. Use at your own risk.
+3. The variants tagged "untested" are exactly that. I've never personally made boards from them. Use at your own risk.
 
-3. For changes and errata, see the relevant files in the repo.
+4. For changes and errata, see the relevant files in the repo.
 
 

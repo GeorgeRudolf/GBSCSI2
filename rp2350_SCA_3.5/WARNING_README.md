@@ -1,1 +1,0 @@
-This design is incomplete and not usable. Do not manufacture boards from it.

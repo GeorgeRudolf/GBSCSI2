@@ -9,3 +9,5 @@ Change: Connector rekeyed.
 Patch: Lower Vf diodes can (and were) substituted as partial mitigation. Users with other needs would need to investigate their own solutions, potentially using an LM1117-3.3V regulator or similar.
 
 Change: Redesign pending. (Jan/26)
+
+3. Feb. 04 2026> Change: Migrated project to from-scratch redesign.

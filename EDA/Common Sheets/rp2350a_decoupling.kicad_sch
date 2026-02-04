@@ -1,0 +1,2827 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b8b9aa68-bee1-438d-ac1c-2dc7d2fbac52")
+	(paper "A5" portrait)
+	(title_block
+		(title "GBSCSI2 Common Platform Core - RP2350 Decoupling")
+		(date "2026-02-01")
+		(rev "2.0")
+		(comment 1 "Drawn by George R. M.")
+	)
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+1V1"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+1V1"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+1V1\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+1V1_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+1V1_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+1V1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 99.06 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26867018-9eb7-4c0e-a682-9eea26c2b094")
+	)
+	(junction
+		(at 90.17 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27b5f654-5e49-4422-951d-27beb96ab161")
+	)
+	(junction
+		(at 99.06 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "314e2511-15b2-4fdd-ac0b-7e1c8bf5aa21")
+	)
+	(junction
+		(at 99.06 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41b655b7-3206-42ce-af01-61b61ee675eb")
+	)
+	(junction
+		(at 90.17 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45684748-88f2-4cc5-bfa0-071f7862d2f1")
+	)
+	(junction
+		(at 99.06 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73c161ca-fb3a-4d7d-8e60-29164d15e2bc")
+	)
+	(junction
+		(at 90.17 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "745c8d23-e454-40e2-9ce3-e0b47d5ac108")
+	)
+	(junction
+		(at 90.17 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81489273-6e41-4dfa-992b-7cba6a695379")
+	)
+	(junction
+		(at 99.06 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0a94c53-a5e0-4863-a07b-2dfb1e5da9fc")
+	)
+	(junction
+		(at 54.61 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cebdedc4-2c9f-4b38-96e3-fead5ddae857")
+	)
+	(junction
+		(at 90.17 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d539a000-fa16-4466-8496-9caccc81f08d")
+	)
+	(junction
+		(at 99.06 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d76de728-c38d-49a6-8876-4c3aad3c14b9")
+	)
+	(junction
+		(at 66.04 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "debd8816-3cf6-41b4-8831-9842bf5ac7ad")
+	)
+	(junction
+		(at 90.17 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f203ddce-941e-45c9-a01c-b68a50fbe716")
+	)
+	(wire
+		(pts
+			(xy 99.06 43.18) (xy 99.06 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12fe3245-dff1-48c7-880a-311a0b4b766a")
+	)
+	(wire
+		(pts
+			(xy 92.71 68.58) (xy 90.17 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "153b746b-a113-4ed1-9ec4-6d31fa9596c0")
+	)
+	(wire
+		(pts
+			(xy 54.61 45.72) (xy 54.61 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c90fa33-1d44-4177-b75d-31894ec76277")
+	)
+	(wire
+		(pts
+			(xy 66.04 76.2) (xy 66.04 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "277adc11-c46c-4dbf-b575-1d5d6f4d34d3")
+	)
+	(wire
+		(pts
+			(xy 97.79 45.72) (xy 99.06 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e8e63e5-ba97-421c-bf51-c1f930689c2f")
+	)
+	(wire
+		(pts
+			(xy 90.17 91.44) (xy 90.17 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30b38bb4-53a4-462e-9b9b-615b14c9af39")
+	)
+	(wire
+		(pts
+			(xy 97.79 57.15) (xy 99.06 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31ccd11c-bdc0-4f7b-94dc-1af76d795d2a")
+	)
+	(wire
+		(pts
+			(xy 66.04 71.12) (xy 66.04 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37a6c287-709b-41d3-8c4a-28b0b29f7840")
+	)
+	(wire
+		(pts
+			(xy 92.71 45.72) (xy 90.17 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fe6b704-9fa8-48e4-b044-f9a5a9244440")
+	)
+	(wire
+		(pts
+			(xy 54.61 71.12) (xy 54.61 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "444ffed7-ed47-458a-9743-ecc0490afcea")
+	)
+	(wire
+		(pts
+			(xy 54.61 44.45) (xy 66.04 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4565577c-74af-47c9-aed6-a8ac3835497d")
+	)
+	(wire
+		(pts
+			(xy 99.06 68.58) (xy 99.06 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f94276d-0db9-490a-99c2-829b595ead3e")
+	)
+	(wire
+		(pts
+			(xy 90.17 102.87) (xy 90.17 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "509c22eb-31da-4f09-b372-41131b694c99")
+	)
+	(wire
+		(pts
+			(xy 99.06 102.87) (xy 99.06 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5214000a-4d57-4ca8-b60e-b65ca062483d")
+	)
+	(wire
+		(pts
+			(xy 99.06 57.15) (xy 99.06 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5320123f-ecae-4c04-a12c-21330e3e3499")
+	)
+	(wire
+		(pts
+			(xy 90.17 68.58) (xy 90.17 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f98afa1-17c4-4aa4-a3e0-0f1932c71c5b")
+	)
+	(wire
+		(pts
+			(xy 92.71 91.44) (xy 90.17 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63b8a5d2-45e9-4f67-b6ff-821e0b4ed974")
+	)
+	(wire
+		(pts
+			(xy 54.61 52.07) (xy 66.04 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64777052-4c33-4fbb-9630-5cdeb9c13758")
+	)
+	(wire
+		(pts
+			(xy 97.79 80.01) (xy 99.06 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d0b4065-625b-4e66-b81b-4839fce8fa6a")
+	)
+	(wire
+		(pts
+			(xy 97.79 68.58) (xy 99.06 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd8ef12-b01c-470e-aad6-508158518e28")
+	)
+	(wire
+		(pts
+			(xy 54.61 52.07) (xy 54.61 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87e73dfd-ec2c-482e-af2f-8b0e8b51b84f")
+	)
+	(wire
+		(pts
+			(xy 92.71 80.01) (xy 90.17 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a33a571-498e-4b40-8455-7bce86ceb9a0")
+	)
+	(wire
+		(pts
+			(xy 97.79 114.3) (xy 99.06 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a8f9e36-fda5-4136-a9a3-8e84b6c54a70")
+	)
+	(wire
+		(pts
+			(xy 97.79 102.87) (xy 99.06 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9edac1d2-42e0-4829-8f5b-2b2897972cde")
+	)
+	(wire
+		(pts
+			(xy 90.17 91.44) (xy 90.17 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1fe1086-d48b-4a13-b7d6-152503b84a45")
+	)
+	(wire
+		(pts
+			(xy 92.71 57.15) (xy 90.17 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a368eeb0-8d2c-48eb-bb53-3b46ab7df5d8")
+	)
+	(wire
+		(pts
+			(xy 90.17 80.01) (xy 90.17 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a768dba7-9f12-41ce-a1c0-1568452494f9")
+	)
+	(wire
+		(pts
+			(xy 54.61 50.8) (xy 54.61 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c297e905-1681-40cf-bc60-0c25baea9acd")
+	)
+	(wire
+		(pts
+			(xy 90.17 57.15) (xy 90.17 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c92588ff-f2eb-41f5-aefc-b4986daa493a")
+	)
+	(wire
+		(pts
+			(xy 90.17 114.3) (xy 90.17 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d36bec08-fe49-4282-b8e7-1b55dcfd40e0")
+	)
+	(wire
+		(pts
+			(xy 99.06 91.44) (xy 99.06 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b2247b-4c06-4f93-84d7-097d195b9778")
+	)
+	(wire
+		(pts
+			(xy 99.06 45.72) (xy 99.06 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d642a193-090c-49d6-bbf3-ac771272f8c6")
+	)
+	(wire
+		(pts
+			(xy 54.61 76.2) (xy 54.61 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8a16c29-8a95-46fd-89e4-9318229120b4")
+	)
+	(wire
+		(pts
+			(xy 92.71 102.87) (xy 90.17 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc0b0f54-94b8-4342-b3b0-529a3b8f6119")
+	)
+	(wire
+		(pts
+			(xy 66.04 45.72) (xy 66.04 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd6e246f-0060-4f6f-8eec-4fe369686442")
+	)
+	(wire
+		(pts
+			(xy 66.04 43.18) (xy 66.04 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d4e856-d4e1-471b-983b-f7807c46936c")
+	)
+	(wire
+		(pts
+			(xy 99.06 80.01) (xy 99.06 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4542504-157d-4ede-83d0-37d4077fd8a0")
+	)
+	(wire
+		(pts
+			(xy 66.04 52.07) (xy 66.04 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e532f039-058b-4436-8adc-8cd15a1e6b90")
+	)
+	(wire
+		(pts
+			(xy 92.71 114.3) (xy 90.17 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb442dfe-493b-49e3-afb4-6adc3c7b81ca")
+	)
+	(wire
+		(pts
+			(xy 97.79 91.44) (xy 99.06 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb565b00-45d1-4626-a99e-1749ba5c24b5")
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 66.04 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c332a22-9631-4bc9-ae3f-185cb7f1d4b5")
+		(property "Reference" "C12"
+			(at 68.961 72.4916 0)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1μF"
+			(at 68.961 74.803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 67.0052 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 66.04 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Preferred MPN" "CL05A105KA5NQNC"
+			(at 66.04 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate Part Number" "GRM155R61E105KA12D"
+			(at 66.04 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Nominal Preferred Characteristics" "25V X5R"
+			(at 71.628 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Case/Package" "0402"
+			(at 66.04 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "1.0x0.5mm"
+			(at 66.04 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b08d8b0d-ad85-47cc-875f-a59994d3b63e")
+		)
+		(pin "2"
+			(uuid "6106e445-bafa-41fb-a491-1f26265d7b6e")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/dbcf004f-88e5-4126-8d06-f1825ffeac66"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V1")
+		(at 54.61 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1dafd74d-3736-4c30-80a4-0d0b9e832588")
+		(property "Reference" "#PWR035"
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1.1V"
+			(at 54.991 65.4558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a53e0402-16b1-48ab-963e-4d7e5e867dd7")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/dbcf004f-88e5-4126-8d06-f1825ffeac66"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 66.04 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "220c16d9-da26-4124-854f-02ad7879a605")
+		(property "Reference" "#PWR038"
+			(at 66.04 73.66 0)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 66.421 65.4558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3227a163-00ae-4ed2-876e-4348c532e3c7")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/dbcf004f-88e5-4126-8d06-f1825ffeac66"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V1")
+		(at 66.04 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2539c27b-46e9-4613-990e-37daca8c9e30")
+		(property "Reference" "#PWR037"
+			(at 66.04 46.99 0)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1.1V"
+			(at 65.151 38.7858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28f4635d-b038-4bf7-90cf-9e178cb00d45")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/dbcf004f-88e5-4126-8d06-f1825ffeac66"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3350a87f-21c2-4808-8733-c4ca8780a499")
+		(property "Reference" "#PWR034"
+			(at 54.61 59.69 0)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.737 57.7342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0546957a-21bc-47bf-b4ad-c74aba79c32f")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/dbcf004f-88e5-4126-8d06-f1825ffeac66"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 54.61 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37a303b0-bcda-4530-ba63-7613170f8be0")
+		(property "Reference" "C9"
+			(at 57.531 47.0916 0)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 57.531 49.403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 55.5752 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 54.61 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Preferred MPN" "CL05B104KB54PNC"
+			(at 54.61 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate Part Number" "GRM155R71H104KE14D"
+			(at 54.61 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Nominal Preferred Characteristics" "50V X7R"
+			(at 60.96 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Case/Package" "0402"
+			(at 54.61 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "1.0x0.5mm"
+			(at 54.61 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d81b80cc-42f7-4fd9-ad95-9358ed869a47")
+		)
+		(pin "2"
+			(uuid "019eb8c8-9eec-4cd0-9a71-5c00b6a4c39b")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/dbcf004f-88e5-4126-8d06-f1825ffeac66"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 66.04 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40157817-fcba-4feb-834e-f7341ce10228")
+		(property "Reference" "C11"
+			(at 68.961 47.0916 0)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 68.961 49.403 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 67.0052 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 66.04 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Preferred MPN" "CL05B104KB54PNC"
+			(at 66.04 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate Part Number" "GRM155R71H104KE14D"
+			(at 66.04 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Nominal Preferred Characteristics" "50V X7R"
+			(at 72.39 51.054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Case/Package" "0402"
+			(at 66.04 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "1.0x0.5mm"
+			(at 66.04 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0cf86df-2ed4-4581-ac40-1917f05e293a")
+		)
+		(pin "2"
+			(uuid "ca0eee82-6757-4524-ba25-d1e9e0b8b45f")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/dbcf004f-88e5-4126-8d06-f1825ffeac66"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 95.25 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a5798c5-3144-43db-994d-ea4a7ff7811c")
+		(property "Reference" "C14"
+			(at 91.694 60.198 90)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 91.694 62.5094 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 91.44 58.1152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 95.25 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Preferred MPN" "CL05B104KB54PNC"
+			(at 95.25 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate Part Number" "GRM155R71H104KE14D"
+			(at 95.25 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Nominal Preferred Characteristics" "50V X7R"
+			(at 94.742 64.516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Case/Package" "0402"
+			(at 95.25 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "1.0x0.5mm"
+			(at 95.25 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89b2897b-f6d4-4eb2-aba9-d980c8c5f6a4")
+		)
+		(pin "2"
+			(uuid "87cd40bd-fc93-4df6-a186-d6ba7bb94a22")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/dbcf004f-88e5-4126-8d06-f1825ffeac66"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 95.25 102.87 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ad974da-f605-4820-89b5-b0bef4b51f6a")
+		(property "Reference" "C18"
+			(at 91.694 105.918 90)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 91.694 108.2294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 91.44 103.8352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 95.25 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Preferred MPN" "CL05B104KB54PNC"
+			(at 95.25 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate Part Number" "GRM155R71H104KE14D"
+			(at 95.25 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Nominal Preferred Characteristics" "50V X7R"
+			(at 94.742 110.236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Case/Package" "0402"
+			(at 95.25 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "1.0x0.5mm"
+			(at 95.25 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "286d64e7-4251-46e3-8302-2d780ddd5206")
+		)
+		(pin "2"
+			(uuid "c668042a-45bc-406f-a728-e6993278c654")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/dbcf004f-88e5-4126-8d06-f1825ffeac66"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 95.25 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60c69dca-c582-447b-9e4c-219388647675")
+		(property "Reference" "C16"
+			(at 91.694 83.058 90)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 91.694 85.3694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 91.44 80.9752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 95.25 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Preferred MPN" "CL05B104KB54PNC"
+			(at 95.25 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate Part Number" "GRM155R71H104KE14D"
+			(at 95.25 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Nominal Preferred Characteristics" "50V X7R"
+			(at 94.742 87.376 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Case/Package" "0402"
+			(at 95.25 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "1.0x0.5mm"
+			(at 95.25 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09630bff-4afa-4ad6-bff1-de3f7803d125")
+		)
+		(pin "2"
+			(uuid "f786ca40-443a-4cd7-b6d2-c6e9f2741d81")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/dbcf004f-88e5-4126-8d06-f1825ffeac66"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bf55583-19ee-4c43-8546-ee31dc4073bc")
+		(property "Reference" "#PWR040"
+			(at 90.17 132.08 0)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.297 130.1242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d06d320c-c8ae-4753-bcf6-58ae77886a86")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/dbcf004f-88e5-4126-8d06-f1825ffeac66"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 54.61 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6db8a585-6fdf-4eb0-a705-3c62a3b1aed8")
+		(property "Reference" "C10"
+			(at 57.531 72.4916 0)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7μF"
+			(at 57.531 74.803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 55.5752 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23733"
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Preferred MPN" "CL05A475MP5NRNC"
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate Part Number" "GRM155R61E475ME15D"
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Nominal Preferred Characteristics" "10V X5R"
+			(at 60.198 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Case/Package" "0402"
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "1.0x0.5mm"
+			(at 54.61 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b23adf2e-84b6-4f2b-b641-37859f0e5d84")
+		)
+		(pin "2"
+			(uuid "9f198534-23ba-4deb-8882-de168cf8b9d9")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/dbcf004f-88e5-4126-8d06-f1825ffeac66"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7390509e-8dbc-4be7-9c1c-aafeb8199003")
+		(property "Reference" "#PWR039"
+			(at 66.04 83.82 0)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.167 81.8642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f2a49fa-10c8-47fb-96a6-005d16f80320")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/dbcf004f-88e5-4126-8d06-f1825ffeac66"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 95.25 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77dd27f9-9e62-47ef-a2db-b68b46772bf7")
+		(property "Reference" "C13"
+			(at 91.694 48.768 90)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 91.694 51.0794 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 91.44 46.6852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 95.25 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Preferred MPN" "CL05B104KB54PNC"
+			(at 95.25 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate Part Number" "GRM155R71H104KE14D"
+			(at 95.25 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Nominal Preferred Characteristics" "50V X7R"
+			(at 94.742 53.086 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Case/Package" "0402"
+			(at 95.25 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "1.0x0.5mm"
+			(at 95.25 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b464bb30-e571-495c-86ae-75a87ec26cce")
+		)
+		(pin "2"
+			(uuid "e4ff2217-50a5-43de-b374-fd561e99077a")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/dbcf004f-88e5-4126-8d06-f1825ffeac66"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 95.25 114.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9706130f-52ac-4fcb-a535-ccd6564d6728")
+		(property "Reference" "C19"
+			(at 91.694 117.348 90)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 91.694 119.6594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 91.44 115.2652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 95.25 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Preferred MPN" "CL05B104KB54PNC"
+			(at 95.25 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate Part Number" "GRM155R71H104KE14D"
+			(at 95.25 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Nominal Preferred Characteristics" "50V X7R"
+			(at 94.742 121.666 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Case/Package" "0402"
+			(at 95.25 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "1.0x0.5mm"
+			(at 95.25 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a584c72c-68e7-475b-8c86-229149dee64a")
+		)
+		(pin "2"
+			(uuid "aadec404-c975-45cc-bd76-d5a06db691f0")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/dbcf004f-88e5-4126-8d06-f1825ffeac66"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba7f438f-c391-4055-bed0-c70bf967e7a6")
+		(property "Reference" "#PWR036"
+			(at 54.61 83.82 0)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.737 81.8642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "398efa8b-ea77-43db-aa47-ba2a60a71e8c")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/dbcf004f-88e5-4126-8d06-f1825ffeac66"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 99.06 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc23535c-0b67-486d-b155-0c50e46e2ab2")
+		(property "Reference" "#PWR041"
+			(at 99.06 46.99 0)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 99.441 38.7858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db67252c-34aa-4243-aaff-c3456a0a7710")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/dbcf004f-88e5-4126-8d06-f1825ffeac66"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 95.25 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de1b6ae0-e1fd-45f8-bee0-aca21f16993b")
+		(property "Reference" "C17"
+			(at 91.694 94.488 90)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 91.694 96.7994 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 91.44 92.4052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 95.25 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Preferred MPN" "CL05B104KB54PNC"
+			(at 95.25 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate Part Number" "GRM155R71H104KE14D"
+			(at 95.25 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Nominal Preferred Characteristics" "50V X7R"
+			(at 94.742 98.806 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Case/Package" "0402"
+			(at 95.25 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "1.0x0.5mm"
+			(at 95.25 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd25572c-2dd8-4dcc-a628-5683f23cadb6")
+		)
+		(pin "2"
+			(uuid "2a590957-def0-4ed8-9f6e-03745d068689")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/dbcf004f-88e5-4126-8d06-f1825ffeac66"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 95.25 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e97506ac-b624-4672-a338-96ab44e39013")
+		(property "Reference" "C15"
+			(at 91.694 71.628 90)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 91.694 73.9394 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 91.44 69.5452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 95.25 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Preferred MPN" "CL05B104KB54PNC"
+			(at 95.25 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate Part Number" "GRM155R71H104KE14D"
+			(at 95.25 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Nominal Preferred Characteristics" "50V X7R"
+			(at 94.742 75.946 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Case/Package" "0402"
+			(at 95.25 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "1.0x0.5mm"
+			(at 95.25 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6fc74c4-9d24-48cd-af4b-f42c0027dbf7")
+		)
+		(pin "2"
+			(uuid "8a11b399-44d7-4d37-90bf-e985467b4a0a")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/dbcf004f-88e5-4126-8d06-f1825ffeac66"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
