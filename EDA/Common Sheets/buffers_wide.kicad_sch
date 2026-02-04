@@ -1644,131 +1644,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -4016,25 +3891,25 @@
 		)
 		(uuid "fbaf8b5d-d95f-4310-9970-d3f11c3e47de")
 	)
-	(label "~{SCSI_SD0}"
-		(at 74.93 165.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "028b66c1-8be7-4a55-950f-0d7e768a1564")
-	)
-	(label "~{MCU_SD2}"
-		(at 46.99 160.02 180)
+	(label "~{MCU_SD3}"
+		(at 46.99 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "09abb5a1-7efc-4ac8-902d-2d46515caa77")
+		(uuid "091d9758-9d54-405f-b066-7c602c489ee1")
+	)
+	(label "~{SCSI_SD3}"
+		(at 74.93 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c119f5a-88d3-47fc-a105-6231a2b0d87b")
 	)
 	(label "~{SCSI_SD15}"
 		(at 140.97 165.1 0)
@@ -4046,25 +3921,15 @@
 		)
 		(uuid "1e10cd9d-c8dd-4031-86b0-df55c1724e9e")
 	)
-	(label "~{MCU_SD6}"
-		(at 46.99 149.86 180)
+	(label "~{MCU_SD5}"
+		(at 46.99 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "2a45b0ee-3d70-4f17-96da-95632e241f5a")
-	)
-	(label "~{MCU_SD3}"
-		(at 46.99 157.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2b05662c-7b68-425d-9bfb-6a4e60272425")
+		(uuid "1fbfe078-903e-4e6e-bb80-c58758fa7dd5")
 	)
 	(label "~{MCU_SD8}"
 		(at 104.14 147.32 0)
@@ -4076,15 +3941,35 @@
 		)
 		(uuid "2ff4a80f-a93a-4593-b06e-f4401ca0513c")
 	)
-	(label "~{MCU_SD5}"
-		(at 46.99 152.4 180)
+	(label "~{MCU_SD6}"
+		(at 46.99 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "42b595ab-8b64-4c0c-b358-e58cebbfb83a")
+		(uuid "339c93ca-9f6c-4264-bcb3-9c47505c7820")
+	)
+	(label "~{MCU_SD0}"
+		(at 46.99 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3bd5847b-8ba6-4a8a-81b0-c7ab8d4593b1")
+	)
+	(label "~{SCSI_SD7}"
+		(at 74.93 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4350c8b9-ca6f-48d2-b2b6-c0ffe37504e8")
 	)
 	(label "~{SCSI_SD10}"
 		(at 140.97 152.4 0)
@@ -4106,36 +3991,6 @@
 		)
 		(uuid "4d26b74c-b874-44ab-be48-3d79788e1a07")
 	)
-	(label "~{SCSI_SD6}"
-		(at 74.93 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "59ba629c-9032-424e-9314-d1bde1cec55f")
-	)
-	(label "~{SCSI_SD5}"
-		(at 74.93 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5e0c9206-e522-4b56-9306-b1e8753df980")
-	)
-	(label "~{SCSI_SD1}"
-		(at 74.93 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "646d07d4-e82e-4296-9350-649ea901b0bb")
-	)
 	(label "~{SCSI_SD9}"
 		(at 140.97 149.86 0)
 		(effects
@@ -4146,15 +4001,15 @@
 		)
 		(uuid "6825abce-c0ad-4dd7-9060-53763b1b0f81")
 	)
-	(label "~{MCU_SD0}"
-		(at 46.99 165.1 180)
+	(label "~{SCSI_SD2}"
+		(at 74.93 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "696bdbd3-772b-4b7a-82e7-41e1b6fd7717")
+		(uuid "6ea56795-e918-4829-be9f-3ff86547d99e")
 	)
 	(label "~{MCU_SD11}"
 		(at 104.14 154.94 0)
@@ -4166,16 +4021,6 @@
 		)
 		(uuid "70874bc9-9014-4f8b-9e5e-30d5361af648")
 	)
-	(label "~{MCU_SD1}"
-		(at 46.99 162.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7a26b603-6a53-48d8-83c2-577973c9ef95")
-	)
 	(label "~{SCSI_SD12}"
 		(at 140.97 157.48 0)
 		(effects
@@ -4186,15 +4031,25 @@
 		)
 		(uuid "85f78974-5776-470f-94d7-fadd1bb96b77")
 	)
+	(label "~{MCU_SD7}"
+		(at 46.99 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "89866bc7-f1c1-46e3-bbdb-e53abf2e8eec")
+	)
 	(label "~{SCSI_SD4}"
-		(at 74.93 154.94 0)
+		(at 74.93 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a8f45e21-4424-4cc9-9e12-ddc1f6063f5d")
+		(uuid "a76f583f-46b8-4869-9417-6e10daa844aa")
 	)
 	(label "~{MCU_SD9}"
 		(at 104.14 149.86 0)
@@ -4206,6 +4061,16 @@
 		)
 		(uuid "aa50abe8-aa51-4a52-8ea0-129e6e8b96d0")
 	)
+	(label "~{SCSI_SD6}"
+		(at 74.93 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac1edaa2-4eb2-4e7d-8075-010d40fc5b87")
+	)
 	(label "~{MCU_SD14}"
 		(at 104.14 162.56 0)
 		(effects
@@ -4216,15 +4081,25 @@
 		)
 		(uuid "c33c182c-c4b8-47c4-aa7d-29b82de92b30")
 	)
-	(label "~{SCSI_SD3}"
-		(at 74.93 157.48 0)
+	(label "~{MCU_SD2}"
+		(at 46.99 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c6c0e769-1f45-4e9a-adfa-ba3d7ce8e95d")
+	)
+	(label "~{SCSI_SD5}"
+		(at 74.93 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c6b0bcad-ee85-4334-b7ae-386a08b59f03")
+		(uuid "d39c8b4b-7bbb-42c0-a0ef-f1253b02d095")
 	)
 	(label "~{MCU_SD10}"
 		(at 104.14 152.4 0)
@@ -4235,6 +4110,16 @@
 			(justify left bottom)
 		)
 		(uuid "d42d1590-d0f9-4848-9408-0f776a71e02a")
+	)
+	(label "~{SCSI_SD1}"
+		(at 74.93 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d82fe925-2737-4f9d-9c16-4d95c5395bdb")
 	)
 	(label "~{SCSI_SD13}"
 		(at 140.97 160.02 0)
@@ -4256,15 +4141,25 @@
 		)
 		(uuid "dbcc1ed1-b89d-4abb-be2e-854b7730f224")
 	)
-	(label "~{MCU_SD7}"
-		(at 46.99 147.32 180)
+	(label "~{MCU_SD4}"
+		(at 46.99 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "e1f13154-2548-4dc5-90cb-2de2a92bfc77")
+		(uuid "e46136fe-fb56-413d-9cfa-cb1f7dd5dd61")
+	)
+	(label "~{SCSI_SD0}"
+		(at 74.93 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e95b352c-e19e-4518-856a-ee47d8867b57")
 	)
 	(label "~{SCSI_SD14}"
 		(at 140.97 162.56 0)
@@ -4275,26 +4170,6 @@
 			(justify left bottom)
 		)
 		(uuid "ed07ad20-10c4-439e-aaaf-38a9a8a817a1")
-	)
-	(label "~{MCU_SD4}"
-		(at 46.99 154.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ee6a9aae-79dc-482d-90ba-6c24d68d18f1")
-	)
-	(label "~{SCSI_SD2}"
-		(at 74.93 160.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f30d056e-657f-4257-bc81-03a5dae60995")
 	)
 	(label "~{SCSI_SD8}"
 		(at 140.97 147.32 0)
@@ -4316,6 +4191,16 @@
 		)
 		(uuid "f8d75e07-84ec-4951-8d82-6bd9f7e22793")
 	)
+	(label "~{MCU_SD1}"
+		(at 46.99 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f99d47ea-9635-402c-87a2-120eba25ec5c")
+	)
 	(label "~{MCU_SD12}"
 		(at 104.14 157.48 0)
 		(effects
@@ -4325,16 +4210,6 @@
 			(justify left bottom)
 		)
 		(uuid "fb245db6-4d87-42e5-9d4f-6a0783aca270")
-	)
-	(label "~{SCSI_SD7}"
-		(at 74.93 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fe049818-3494-4f91-960c-35521e9281a5")
 	)
 	(hierarchical_label "SCSI_I{slash}~{O}"
 		(shape bidirectional)
@@ -4807,73 +4682,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 64.77 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0835f5a2-5c91-4be8-aaef-07ed74dd5450")
-		(property "Reference" "#PWR048"
-			(at 64.77 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 67.31 22.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 64.77 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d2a6b6f-be79-4186-b88e-bb1205c5e465")
-		)
-		(instances
-			(project "GBSCSI2_2.5SCA_TH_235x"
-				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/c4ebff8a-4dca-4c35-89e3-5977b5c2922e"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 45.72 73.66 0)
 		(unit 1)
@@ -5067,6 +4875,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+2V8")
+		(at 50.8 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12251cda-7728-46be-8dbb-bb8d70c6179e")
+		(property "Reference" "#PWR044"
+			(at 50.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+2.8V"
+			(at 50.8 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02134162-2481-43db-a434-ab2f54fa30a0")
+		)
+		(instances
+			(project "GBSCSI2_2.5SCA_TH_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/c4ebff8a-4dca-4c35-89e3-5977b5c2922e"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LVC125")
 		(at 207.01 102.87 0)
 		(unit 5)
@@ -5187,73 +5061,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 76.2 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1bc81f44-47d3-414d-81fb-3dbd558fcc3c")
-		(property "Reference" "#PWR050"
-			(at 76.2 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 78.74 22.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 76.2 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12d5dbb0-5e15-4f5d-8ea6-45e63e50377a")
-		)
-		(instances
-			(project "GBSCSI2_2.5SCA_TH_235x"
-				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/c4ebff8a-4dca-4c35-89e3-5977b5c2922e"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 60.96 181.61 0)
 		(unit 1)
@@ -5318,76 +5125,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 60.96 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "229efd6c-37f8-4509-923d-e06638066979")
-		(property "Reference" "#PWR046"
-			(at 60.96 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 63.5 130.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 60.96 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca4a3b71-b276-4a40-95b5-4d0934c533ec")
-		)
-		(instances
-			(project "GBSCSI2_2.5SCA_TH_235x"
-				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/c4ebff8a-4dca-4c35-89e3-5977b5c2922e"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xx:74LVC125")
-		(at 204.47 52.07 0)
-		(mirror y)
+		(at 186.69 151.13 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5395,7 +5134,7 @@
 		(dnp no)
 		(uuid "247751ff-f766-44c4-8b97-e3185a18eb3d")
 		(property "Reference" "U7"
-			(at 204.47 44.0182 0)
+			(at 186.69 143.0782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5403,7 +5142,7 @@
 			)
 		)
 		(property "Value" "74LVTH125"
-			(at 204.47 46.3296 0)
+			(at 186.69 145.3896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5411,7 +5150,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 204.47 52.07 0)
+			(at 186.69 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5420,7 +5159,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LVC125"
-			(at 204.47 52.07 0)
+			(at 186.69 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5429,7 +5168,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 204.47 52.07 0)
+			(at 186.69 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5437,7 +5176,7 @@
 			)
 		)
 		(property "LCSC" "C7042"
-			(at 204.47 52.07 0)
+			(at 186.69 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5446,7 +5185,7 @@
 			)
 		)
 		(property "LCSC Part #" "C7042"
-			(at 204.47 52.07 0)
+			(at 186.69 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5506,17 +5245,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 127 132.08 0)
+		(lib_id "power:+2V8")
+		(at 207.01 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "25f2b114-e1be-4603-a0de-a3903771c2a0")
-		(property "Reference" "#PWR0121"
-			(at 127 135.89 0)
+		(uuid "24bc9eaf-e7cc-436a-ad8d-79b8ce897309")
+		(property "Reference" "#PWR057"
+			(at 207.01 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5524,17 +5263,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 129.54 130.8099 0)
+		(property "Value" "+2.8V"
+			(at 207.01 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 127 132.08 0)
+			(at 207.01 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5543,71 +5281,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 127 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0bdf57a5-9646-4001-8719-f8bfe0af69e6")
-		)
-		(instances
-			(project "GBSCSI2_2.5SCA_TH_235x"
-				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/c4ebff8a-4dca-4c35-89e3-5977b5c2922e"
-					(reference "#PWR0121")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74xx:74LVC125")
-		(at 147.32 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "269f35d2-ae76-4fd5-bb2e-349143155ab8")
-		(property "Reference" "U7"
-			(at 147.32 22.4282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LVTH125"
-			(at 147.32 24.7396 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 147.32 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LVC125"
-			(at 147.32 30.48 0)
+			(at 207.01 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5616,7 +5290,72 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 30.48 0)
+			(at 207.01 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ab5e1c9-dea8-4a6f-bfe5-9fca46ffb7e7")
+		)
+		(instances
+			(project "GBSCSI2_2.5SCA_TH_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/c4ebff8a-4dca-4c35-89e3-5977b5c2922e"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LVC125")
+		(at 147.32 52.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "269f35d2-ae76-4fd5-bb2e-349143155ab8")
+		(property "Reference" "U7"
+			(at 147.32 44.0182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVTH125"
+			(at 147.32 46.3296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 147.32 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LVC125"
+			(at 147.32 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5624,7 +5363,7 @@
 			)
 		)
 		(property "LCSC" "C7042"
-			(at 147.32 30.48 0)
+			(at 147.32 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5633,7 +5372,7 @@
 			)
 		)
 		(property "LCSC Part #" "C7042"
-			(at 147.32 30.48 0)
+			(at 147.32 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5962,6 +5701,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+2V8")
+		(at 60.96 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2dbf901d-06b5-49d5-84fd-6f12f451a649")
+		(property "Reference" "#PWR046"
+			(at 60.96 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+2.8V"
+			(at 60.96 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a3f2380-7376-428b-b0a1-8373d5e1b993")
+		)
+		(instances
+			(project "GBSCSI2_2.5SCA_TH_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/c4ebff8a-4dca-4c35-89e3-5977b5c2922e"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+2V8")
+		(at 116.84 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cd223f9-b1f5-4789-921c-190b10181c04")
+		(property "Reference" "#PWR080"
+			(at 116.84 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+2.8V"
+			(at 116.84 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df6bbbac-7a28-4682-ae3f-18646f6977df")
+		)
+		(instances
+			(project "GBSCSI2_2.5SCA_TH_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/c4ebff8a-4dca-4c35-89e3-5977b5c2922e"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 64.77 31.75 0)
 		(unit 1)
@@ -6146,72 +6017,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 175.26 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "463aadb5-9f05-4ece-a737-ad98abad8237")
-		(property "Reference" "#PWR057"
-			(at 175.26 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 175.006 84.836 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 175.26 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "60751a55-0120-4f34-b387-de4b7a12cd42")
-		)
-		(instances
-			(project "GBSCSI2_2.5SCA_TH_235x"
-				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/c4ebff8a-4dca-4c35-89e3-5977b5c2922e"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 64.77 27.94 0)
 		(unit 1)
@@ -6378,6 +6183,72 @@
 			(project "GBSCSI2_2.5SCA_TH_235x"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/c4ebff8a-4dca-4c35-89e3-5977b5c2922e"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+2V8")
+		(at 76.2 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ffe5262-f4e7-49c1-9dc3-9402db44cc09")
+		(property "Reference" "#PWR050"
+			(at 76.2 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+2.8V"
+			(at 76.2 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07086a5d-859e-45f7-8aa6-2752adad8124")
+		)
+		(instances
+			(project "GBSCSI2_2.5SCA_TH_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/c4ebff8a-4dca-4c35-89e3-5977b5c2922e"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -6663,6 +6534,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+2V8")
+		(at 175.26 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64c8bf80-8c51-4d0e-ad47-3af647a0e37f")
+		(property "Reference" "#PWR066"
+			(at 175.26 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+2.8V"
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46772dc0-16ec-4bf1-ac96-4f28712b3a1a")
+		)
+		(instances
+			(project "GBSCSI2_2.5SCA_TH_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/c4ebff8a-4dca-4c35-89e3-5977b5c2922e"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 33.02 39.37 90)
 		(mirror x)
@@ -6880,73 +6817,6 @@
 			(project "GBSCSI2_2.5SCA_TH_235x"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/c4ebff8a-4dca-4c35-89e3-5977b5c2922e"
 					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 116.84 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68a043d6-1c31-41c2-82be-1c91425a9525")
-		(property "Reference" "#PWR071"
-			(at 116.84 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 119.38 130.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 116.84 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e0754577-7efd-48d5-aecb-f48362cbe5b2")
-		)
-		(instances
-			(project "GBSCSI2_2.5SCA_TH_235x"
-				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/c4ebff8a-4dca-4c35-89e3-5977b5c2922e"
-					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -7225,6 +7095,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+2V8")
+		(at 198.12 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "823d3250-73f2-4206-9b57-189852895961")
+		(property "Reference" "#PWR059"
+			(at 198.12 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+2.8V"
+			(at 198.12 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e0f51ca-2476-4e99-a256-a968848f6755")
+		)
+		(instances
+			(project "GBSCSI2_2.5SCA_TH_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/c4ebff8a-4dca-4c35-89e3-5977b5c2922e"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 198.12 96.52 0)
 		(unit 1)
@@ -7290,8 +7226,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LVC125")
-		(at 147.32 52.07 0)
-		(mirror y)
+		(at 147.32 30.48 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7299,7 +7234,7 @@
 		(dnp no)
 		(uuid "8b10bef7-23da-416d-b344-46efe516fc86")
 		(property "Reference" "U7"
-			(at 147.32 44.0182 0)
+			(at 147.32 22.4282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7307,7 +7242,7 @@
 			)
 		)
 		(property "Value" "74LVTH125"
-			(at 147.32 46.3296 0)
+			(at 147.32 24.7396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7315,7 +7250,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 147.32 52.07 0)
+			(at 147.32 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7324,7 +7259,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LVC125"
-			(at 147.32 52.07 0)
+			(at 147.32 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7333,7 +7268,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 147.32 52.07 0)
+			(at 147.32 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7341,7 +7276,7 @@
 			)
 		)
 		(property "LCSC" "C7042"
-			(at 147.32 52.07 0)
+			(at 147.32 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7350,7 +7285,7 @@
 			)
 		)
 		(property "LCSC Part #" "C7042"
-			(at 147.32 52.07 0)
+			(at 147.32 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7410,76 +7345,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 50.8 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9522adee-614c-45ec-ac94-eb2f4e4198d2")
-		(property "Reference" "#PWR044"
-			(at 50.8 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 53.34 130.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 50.8 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "983be78f-edbe-4a0c-9630-7e631cf88e4e")
-		)
-		(instances
-			(project "GBSCSI2_2.5SCA_TH_235x"
-				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/c4ebff8a-4dca-4c35-89e3-5977b5c2922e"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xx:74LVC125")
-		(at 204.47 30.48 0)
-		(mirror x)
+		(at 186.69 134.62 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7487,7 +7354,7 @@
 		(dnp no)
 		(uuid "9a1b7364-9ba5-4dab-945a-3315f7bb3d82")
 		(property "Reference" "U7"
-			(at 204.47 38.5318 0)
+			(at 186.69 126.5682 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7495,7 +7362,7 @@
 			)
 		)
 		(property "Value" "74LVTH125"
-			(at 204.47 36.2204 0)
+			(at 186.69 128.8796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7503,7 +7370,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 204.47 30.48 0)
+			(at 186.69 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7512,7 +7379,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LVC125"
-			(at 204.47 30.48 0)
+			(at 186.69 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7521,7 +7388,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 204.47 30.48 0)
+			(at 186.69 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7529,7 +7396,7 @@
 			)
 		)
 		(property "LCSC" "C7042"
-			(at 204.47 30.48 0)
+			(at 186.69 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7538,7 +7405,7 @@
 			)
 		)
 		(property "LCSC Part #" "C7042"
-			(at 204.47 30.48 0)
+			(at 186.69 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7812,32 +7679,17 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LVC125")
-		(at 186.69 134.62 0)
+		(lib_id "power:+2V8")
+		(at 64.77 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a8ec8deb-7a89-48b6-8a2b-65343a1cdd20")
-		(property "Reference" "U6"
-			(at 186.69 126.5682 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LVTH125"
-			(at 186.69 128.8796 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 186.69 134.62 0)
+		(fields_autoplaced yes)
+		(uuid "a87827b5-b3f4-4216-ac04-4dc4ce7a969e")
+		(property "Reference" "#PWR048"
+			(at 64.77 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7845,8 +7697,25 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LVC125"
-			(at 186.69 134.62 0)
+		(property "Value" "+2.8V"
+			(at 64.77 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7855,7 +7724,72 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 134.62 0)
+			(at 64.77 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87de6088-9e64-42d0-b6ab-f3ea2f2123d1")
+		)
+		(instances
+			(project "GBSCSI2_2.5SCA_TH_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/c4ebff8a-4dca-4c35-89e3-5977b5c2922e"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LVC125")
+		(at 204.47 30.48 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8ec8deb-7a89-48b6-8a2b-65343a1cdd20")
+		(property "Reference" "U6"
+			(at 204.47 38.5318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVTH125"
+			(at 204.47 36.2204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+			(at 204.47 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LVC125"
+			(at 204.47 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7863,7 +7797,7 @@
 			)
 		)
 		(property "LCSC" "C7042"
-			(at 186.69 134.62 0)
+			(at 204.47 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7872,7 +7806,7 @@
 			)
 		)
 		(property "LCSC Part #" "C7042"
-			(at 186.69 134.62 0)
+			(at 204.47 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8149,138 +8083,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+2V8")
-		(at 243.84 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4db4b72-41a4-438e-a704-4fb761d01644")
-		(property "Reference" "#PWR061"
-			(at 243.84 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+2.8V"
-			(at 243.84 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 243.84 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b0ea6c27-de00-4151-ae4e-36f717d3c896")
-		)
-		(instances
-			(project "GBSCSI2_2.5SCA_TH_235x"
-				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/c4ebff8a-4dca-4c35-89e3-5977b5c2922e"
-					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 184.15 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b59036b3-9fbe-41c7-a885-34ab82fdc26c")
-		(property "Reference" "#PWR059"
-			(at 184.15 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 183.896 84.836 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 184.15 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a3c4cb1-2aed-426c-9c15-b5fe4e891570")
-		)
-		(instances
-			(project "GBSCSI2_2.5SCA_TH_235x"
-				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/c4ebff8a-4dca-4c35-89e3-5977b5c2922e"
-					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 175.26 96.52 0)
 		(unit 1)
@@ -8403,6 +8205,72 @@
 			(project "GBSCSI2_2.5SCA_TH_235x"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/c4ebff8a-4dca-4c35-89e3-5977b5c2922e"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+2V8")
+		(at 127 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b78d79d0-8683-4985-94a2-cc73d8378a84")
+		(property "Reference" "#PWR071"
+			(at 127 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+2.8V"
+			(at 127 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ab0fa2f-85fe-43c7-bf58-8ae5a810a659")
+		)
+		(instances
+			(project "GBSCSI2_2.5SCA_TH_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/c4ebff8a-4dca-4c35-89e3-5977b5c2922e"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -8708,16 +8576,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 207.01 88.9 0)
+		(lib_id "power:+2V8")
+		(at 243.84 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c975aed6-5673-4501-a062-5d941fd8ce58")
-		(property "Reference" "#PWR066"
-			(at 207.01 92.71 0)
+		(fields_autoplaced yes)
+		(uuid "cd2a0fe4-60e2-4e5c-8db3-afe5b56c365d")
+		(property "Reference" "#PWR079"
+			(at 243.84 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8725,17 +8594,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 206.756 84.836 0)
+		(property "Value" "+2.8V"
+			(at 243.84 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 88.9 0)
+			(at 243.84 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8744,7 +8612,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 88.9 0)
+			(at 243.84 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8752,8 +8620,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 207.01 88.9 0)
+		(property "Description" ""
+			(at 243.84 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8762,12 +8630,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e4bd682c-45e7-479d-a2c8-a68ddcd07f50")
+			(uuid "616245e6-50e5-4528-9d68-d49afcc3d43f")
 		)
 		(instances
 			(project "GBSCSI2_2.5SCA_TH_235x"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/c4ebff8a-4dca-4c35-89e3-5977b5c2922e"
-					(reference "#PWR066")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -8860,7 +8728,8 @@
 	)
 	(symbol
 		(lib_id "74xx:74LVC125")
-		(at 186.69 151.13 0)
+		(at 204.47 52.07 0)
+		(mirror y)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8868,7 +8737,7 @@
 		(dnp no)
 		(uuid "d6a53185-b56b-4867-83ed-b8b261e207ca")
 		(property "Reference" "U6"
-			(at 186.69 143.0782 0)
+			(at 204.47 44.0182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8876,7 +8745,7 @@
 			)
 		)
 		(property "Value" "74LVTH125"
-			(at 186.69 145.3896 0)
+			(at 204.47 46.3296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8884,7 +8753,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 186.69 151.13 0)
+			(at 204.47 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8893,7 +8762,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LVC125"
-			(at 186.69 151.13 0)
+			(at 204.47 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8902,7 +8771,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 151.13 0)
+			(at 204.47 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8910,7 +8779,7 @@
 			)
 		)
 		(property "LCSC" "C7042"
-			(at 186.69 151.13 0)
+			(at 204.47 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8919,7 +8788,7 @@
 			)
 		)
 		(property "LCSC Part #" "C7042"
-			(at 186.69 151.13 0)
+			(at 204.47 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9193,8 +9062,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ed601806-72de-453d-9063-8d1a465545bb")
-		(property "Reference" "#PWR0123"
+		(uuid "f441ecf3-5d6b-4896-b6f8-37de68039841")
+		(property "Reference" "#PWR061"
 			(at 257.81 30.48 0)
 			(effects
 				(font
@@ -9239,12 +9108,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc2a38f7-23a0-4ed7-9570-68ef1c18b679")
+			(uuid "dcf07238-cf52-489b-8f9b-9c6d9f955a3b")
 		)
 		(instances
 			(project "GBSCSI2_2.5SCA_TH_235x"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/c4ebff8a-4dca-4c35-89e3-5977b5c2922e"
-					(reference "#PWR0123")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -9310,6 +9179,72 @@
 			(project "GBSCSI2_2.5SCA_TH_235x"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/c4ebff8a-4dca-4c35-89e3-5977b5c2922e"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+2V8")
+		(at 184.15 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbfd7900-b1de-4b40-8624-03af4ca9dd54")
+		(property "Reference" "#PWR063"
+			(at 184.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+2.8V"
+			(at 184.15 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b348f42c-bfb1-40ec-a822-c69a21240705")
+		)
+		(instances
+			(project "GBSCSI2_2.5SCA_TH_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/c4ebff8a-4dca-4c35-89e3-5977b5c2922e"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -9396,72 +9331,6 @@
 			(project "GBSCSI2_2.5SCA_TH_235x"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/c4ebff8a-4dca-4c35-89e3-5977b5c2922e"
 					(reference "C42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 198.12 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fefb0447-e165-4e08-be0b-b100fd007555")
-		(property "Reference" "#PWR063"
-			(at 198.12 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 197.866 84.836 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 198.12 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8ae91c8-4c6e-4ab8-8ecc-4655b8be3f1a")
-		)
-		(instances
-			(project "GBSCSI2_2.5SCA_TH_235x"
-				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/c4ebff8a-4dca-4c35-89e3-5977b5c2922e"
-					(reference "#PWR063")
 					(unit 1)
 				)
 			)

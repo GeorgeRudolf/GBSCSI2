@@ -4,13 +4,3 @@
    (constraint clearance (min 0.15mm))
    (condition "A.intersectsCourtyard('U1')")
 )
-
-(rule "Pad Clearance"
-   (constraint clearance (min 0.15mm))
-   (condition "A.Type=='Pad'")
-)
-
-(rule "Via Clearance"
-   (constraint clearance (min 0.15mm))
-   (condition "A.Type=='Via'")
-)
