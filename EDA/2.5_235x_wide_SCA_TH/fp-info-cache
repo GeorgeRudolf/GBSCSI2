@@ -1,4 +1,4 @@
-26043937596637829
+26047385080658494
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -61191,8 +61191,8 @@ GBSCSI2_2.5_PCB
 
 
 0
-8
-1
+4
+0
 GBSCSI
 L_Abracon_AOTA-B2016
 
@@ -61207,6 +61207,20 @@ Surface mounted pin header SMD 2x25 2.00mm double row straddle
 0
 47
 47
+GBSCSI
+RP2350-QFN-60-1EP_7x7_P0.4mm_EP3.4x3.4mm_ThermalVias
+Raspberry Pi RP2350 QFN-60
+QFN DFN_QFN
+0
+74
+61
+GBSCSI
+RP2350-QFN-80-1EP_10x10_P0.4mm_EP3.4x3.4mm_ThermalVias
+Raspberry Pi RP2350 QFN-80
+QFN DFN_QFN
+0
+94
+81
 GBSCSI
 RPi_Pico_W_SMD
 Through hole straight pin header, 2x20, 2.54mm pitch, double rows

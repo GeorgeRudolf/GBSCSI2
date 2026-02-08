@@ -1716,6 +1716,12 @@
 		(uuid "de307b69-371c-4918-b15d-16df3f993960")
 	)
 	(junction
+		(at 55.88 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05ddd254-5aaf-4362-af53-fdf3747ea502")
+	)
+	(junction
 		(at 185.42 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1790,6 +1796,16 @@
 			(type default)
 		)
 		(uuid "0266eeee-ecb3-4041-b004-fe23b44e34b0")
+	)
+	(wire
+		(pts
+			(xy 55.88 69.85) (xy 66.04 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0394176f-49ff-45aa-849a-a6d2af8d9935")
 	)
 	(wire
 		(pts
@@ -1873,7 +1889,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 69.85) (xy 66.04 69.85)
+			(xy 54.61 69.85) (xy 55.88 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2010,6 +2026,16 @@
 			(type default)
 		)
 		(uuid "53bf0141-e3b5-4ded-a351-48a4e0811036")
+	)
+	(wire
+		(pts
+			(xy 34.29 77.47) (xy 46.99 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56d74f3b-d4c1-452d-ada4-b01d168da248")
 	)
 	(wire
 		(pts
@@ -2183,6 +2209,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 69.85) (xy 55.88 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8907ce8-9c1b-4708-a203-2a529f68d591")
+	)
+	(wire
+		(pts
 			(xy 212.09 119.38) (xy 212.09 118.11)
 		)
 		(stroke
@@ -2220,6 +2256,16 @@
 			(type default)
 		)
 		(uuid "b62348ad-8858-4a6f-bc90-0e8475940fbc")
+	)
+	(wire
+		(pts
+			(xy 34.29 50.8) (xy 34.29 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b958685e-2e47-46ba-bae8-fa4e52fda520")
 	)
 	(wire
 		(pts
@@ -2390,6 +2436,16 @@
 			(type default)
 		)
 		(uuid "e76de3ad-7b64-48e8-9245-d23e4bb287a1")
+	)
+	(wire
+		(pts
+			(xy 54.61 77.47) (xy 55.88 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed69c47d-0839-45c6-b346-af479af1273b")
 	)
 	(wire
 		(pts
@@ -2929,6 +2985,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 34.29 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "125f98b5-c86b-41e4-b93f-9646d2944ce3")
+		(property "Reference" "#PWR081"
+			(at 34.29 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VIN"
+			(at 34.29 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 34.29 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43d05ef4-afe7-4829-b2c2-d9f4b8b08c3c")
+		)
+		(instances
+			(project "GBSCSI2_2.5SCA_TH_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/eb232e5c-fd69-4529-8cf9-3d8932039455"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 212.09 41.91 0)
 		(unit 1)
@@ -3416,6 +3538,92 @@
 			(project "GBSCSI2_2.5SCA_TH_235x"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/eb232e5c-fd69-4529-8cf9-3d8932039455"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 50.8 77.47 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a542579-282b-4843-9d7a-c28d1c1e3311")
+		(property "Reference" "D4"
+			(at 50.8 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N5819"
+			(at 50.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 50.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 50.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C191023"
+			(at 50.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C82544"
+			(at 50.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a9358cc-2f63-4bbc-9f7f-b1b19b677ac6")
+		)
+		(pin "2"
+			(uuid "de7b7b7c-22f7-4423-8453-3c6dc4814fed")
+		)
+		(instances
+			(project "GBSCSI2_2.5SCA_TH_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/eb232e5c-fd69-4529-8cf9-3d8932039455"
+					(reference "D4")
 					(unit 1)
 				)
 			)

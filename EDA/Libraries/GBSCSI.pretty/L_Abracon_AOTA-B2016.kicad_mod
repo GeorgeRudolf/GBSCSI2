@@ -114,4 +114,26 @@
 		(uuid "a1372b50-cf30-4898-9d80-4627887f7f4c")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/../../EDA/Libraries/3D_models"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Cenker_CKCS201610.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

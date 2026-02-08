@@ -1,130 +1,640 @@
-(footprint "RPi_Pico_W_SMD" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "Through hole straight pin header, 2x20, 2.54mm pitch, double rows")
-  (tags "Through hole pin header THT 2x20 2.54mm double row")
-  (property "LCSC" "N/A")
-  (property "Sheetfile" "gbscsi2.kicad_sch")
-  (property "Sheetname" "")
-  (attr through_hole)
-  (fp_text reference "U1" (at 0 0 -180) (layer "F.SilkS") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 29e10869-4958-4fed-bb97-54682f8adcbe)
-  )
-  (fp_text value "Pico W" (at 0 2.159 -180) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 04c8470b-3c51-4b7d-b0b8-2f7e208b1c1d)
-  )
-  (fp_text user "Copper Keepouts shown on Dwgs layer" (at 0.1 -30.2 -180) (layer "Cmts.User")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp d30211fa-8ccf-4ddd-91ff-38b5ed3ae1e2)
-  )
-  (fp_text user "${REFERENCE}" (at 0 0 -180) (layer "F.Fab")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 95d9f16d-4a6a-4723-9db5-4b1999dafe84)
-  )
-  (fp_line (start -10.5 -25.5) (end 10.5 -25.5)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 4649f240-95c1-42f3-9f5d-8563bd467613))
-  (fp_line (start 10.5 25.5) (end -10.5 25.5)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 0d5834e2-6fa2-4e2e-a668-7c37928090fa))
-  (fp_rect (start -7 16.4) (end 7 25.5)
-    (stroke (width 0.12) (type solid)) (fill solid) (layer "Dwgs.User") (tstamp 5436aee5-c883-4269-a347-27008731bfd4))
-  (fp_rect (start -0.8 3.8) (end 6.5 7.3)
-    (stroke (width 0.12) (type solid)) (fill solid) (layer "Dwgs.User") (tstamp b90e3d67-fc57-4ac5-9741-1667b7647899))
-  (fp_poly
-    (pts
-      (xy -1.5 -16.5)
-      (xy -3.5 -16.5)
-      (xy -3.5 -18.5)
-      (xy -1.5 -18.5)
-    )
-
-    (stroke (width 0.1) (type solid)) (fill solid) (layer "Dwgs.User") (tstamp ce7d6e2a-f3ce-4d78-858e-231a9736eb67))
-  (fp_poly
-    (pts
-      (xy -1.5 -14)
-      (xy -3.5 -14)
-      (xy -3.5 -16)
-      (xy -1.5 -16)
-    )
-
-    (stroke (width 0.1) (type solid)) (fill solid) (layer "Dwgs.User") (tstamp c310b9b3-01b1-4873-8782-0fedfe187897))
-  (fp_poly
-    (pts
-      (xy -1.5 -11.5)
-      (xy -3.5 -11.5)
-      (xy -3.5 -13.5)
-      (xy -1.5 -13.5)
-    )
-
-    (stroke (width 0.1) (type solid)) (fill solid) (layer "Dwgs.User") (tstamp 8e7fdce1-7209-4a38-970a-424d082a24f0))
-  (fp_poly
-    (pts
-      (xy 3.7 -20.2)
-      (xy -3.7 -20.2)
-      (xy -3.7 -24.9)
-      (xy 3.7 -24.9)
-    )
-
-    (stroke (width 0.1) (type solid)) (fill solid) (layer "Dwgs.User") (tstamp 713f3dfe-02d4-4f70-afca-1722b36f8814))
-  (fp_line (start -11 -26) (end 11 -26)
-    (stroke (width 0.12) (type solid)) (layer "F.CrtYd") (tstamp 05bff865-7c60-4bcc-acdd-899924dfefa2))
-  (fp_line (start -11 26) (end -11 -26)
-    (stroke (width 0.12) (type solid)) (layer "F.CrtYd") (tstamp cd363068-0528-4e39-b247-ce10e6e8a341))
-  (fp_line (start 11 26) (end -11 26)
-    (stroke (width 0.12) (type solid)) (layer "F.CrtYd") (tstamp e739d690-7509-4ebe-970e-bfd5eb157853))
-  (fp_line (start 11 26) (end 11 -26)
-    (stroke (width 0.12) (type solid)) (layer "F.CrtYd") (tstamp d1b15fcf-7f07-4d87-8448-a1da2d85a2fe))
-  (fp_line (start -10.5 -25.5) (end 10.5 -25.5)
-    (stroke (width 0.12) (type solid)) (layer "F.Fab") (tstamp 134e8759-18e5-4c9b-8c08-70a194e2a029))
-  (fp_line (start 10.5 25.5) (end -10.5 25.5)
-    (stroke (width 0.12) (type solid)) (layer "F.Fab") (tstamp 39226bfb-4381-4447-a213-a08d671116a7))
-  (pad "" np_thru_hole oval (at -2.725 -24) (size 1.8 1.8) (drill 1.8) (layers "*.Cu" "*.Mask") (tstamp 0abf6745-9c17-4751-ae7b-53bc2029b0d7))
-  (pad "" np_thru_hole oval (at -2.425 -20.97) (size 1.8 1.8) (drill 1.8) (layers "*.Cu" "*.Mask") (tstamp f226ecbf-e194-490f-ae23-1e8474e53077))
-  (pad "" np_thru_hole oval (at 2.425 -20.97) (size 1.8 1.8) (drill 1.8) (layers "*.Cu" "*.Mask") (tstamp c2347f41-03e8-4087-8da9-0cc86f47fa01))
-  (pad "" np_thru_hole oval (at 2.725 -24) (size 1.8 1.8) (drill 1.8) (layers "*.Cu" "*.Mask") (tstamp 37234a77-ed8d-4a5d-82b0-ee518453f855))
-  (pad "1" smd rect (at -8.89 -24.13) (size 3.5 1.7) (drill (offset -0.9 0)) (layers "F.Cu" "F.Mask") (tstamp bc6fec90-f0d8-429d-ad80-bd665a80a0ca))
-  (pad "2" smd rect (at -8.89 -21.59) (size 3.5 1.7) (drill (offset -0.9 0)) (layers "F.Cu" "F.Mask") (tstamp dd142049-8e81-4805-864b-5c253c9876a7))
-  (pad "3" smd rect (at -8.89 -19.05) (size 3.5 1.7) (drill (offset -0.9 0)) (layers "F.Cu" "F.Mask") (tstamp 07ecfbd6-ee88-43cc-90e5-06a0b24ee7fc))
-  (pad "4" smd rect (at -8.89 -16.51) (size 3.5 1.7) (drill (offset -0.9 0)) (layers "F.Cu" "F.Mask") (tstamp 77583562-ea9a-4fe6-9d7c-ef199e218420))
-  (pad "5" smd rect (at -8.89 -13.97) (size 3.5 1.7) (drill (offset -0.9 0)) (layers "F.Cu" "F.Mask") (tstamp 69d43ac5-f164-4a0b-bad7-7ad7178d795a))
-  (pad "6" smd rect (at -8.89 -11.43) (size 3.5 1.7) (drill (offset -0.9 0)) (layers "F.Cu" "F.Mask") (tstamp 49ed12c4-7013-4b61-ba69-0294fc814437))
-  (pad "7" smd rect (at -8.89 -8.89) (size 3.5 1.7) (drill (offset -0.9 0)) (layers "F.Cu" "F.Mask") (tstamp e91263bc-6aa2-406f-9564-6837cfc2403b))
-  (pad "8" smd rect (at -8.89 -6.35) (size 3.5 1.7) (drill (offset -0.9 0)) (layers "F.Cu" "F.Mask") (tstamp 5d8420f8-dd9e-4457-a131-7df7f37f1d31))
-  (pad "9" smd rect (at -8.89 -3.81) (size 3.5 1.7) (drill (offset -0.9 0)) (layers "F.Cu" "F.Mask") (tstamp d349cc4e-2a74-46bd-b982-281b83e0b006))
-  (pad "10" smd rect (at -8.89 -1.27) (size 3.5 1.7) (drill (offset -0.9 0)) (layers "F.Cu" "F.Mask") (tstamp 378a7521-7417-4028-af12-0244a2affd9c))
-  (pad "11" smd rect (at -8.89 1.27) (size 3.5 1.7) (drill (offset -0.9 0)) (layers "F.Cu" "F.Mask") (tstamp 10125225-fa8a-4d47-a840-1c6604829b26))
-  (pad "12" smd rect (at -8.89 3.81) (size 3.5 1.7) (drill (offset -0.9 0)) (layers "F.Cu" "F.Mask") (tstamp 6e458557-18ce-4187-bb6d-14fa3e8baa32))
-  (pad "13" smd rect (at -8.89 6.35) (size 3.5 1.7) (drill (offset -0.9 0)) (layers "F.Cu" "F.Mask") (tstamp 6cd77c28-0d9a-450e-8648-2399d35de48a))
-  (pad "14" smd rect (at -8.89 8.89) (size 3.5 1.7) (drill (offset -0.9 0)) (layers "F.Cu" "F.Mask") (tstamp d6da7c3d-f8d0-4a7f-bc97-0aa3b4265a0f))
-  (pad "15" smd rect (at -8.89 11.43) (size 3.5 1.7) (drill (offset -0.9 0)) (layers "F.Cu" "F.Mask") (tstamp f776f642-fbd6-48c8-b440-ab1def4d723e))
-  (pad "16" smd rect (at -8.89 13.97) (size 3.5 1.7) (drill (offset -0.9 0)) (layers "F.Cu" "F.Mask") (tstamp 9f72a183-b8d1-4aaa-9bb8-c92a22eda462))
-  (pad "17" smd rect (at -8.89 16.51) (size 3.5 1.7) (drill (offset -0.9 0)) (layers "F.Cu" "F.Mask") (tstamp 2d15cad5-ddd5-4823-b61d-c7504712a646))
-  (pad "18" smd rect (at -8.89 19.05) (size 3.5 1.7) (drill (offset -0.9 0)) (layers "F.Cu" "F.Mask") (tstamp d3561968-fcf9-4159-8b48-f53d1ec62a68))
-  (pad "19" smd rect (at -8.89 21.59) (size 3.5 1.7) (drill (offset -0.9 0)) (layers "F.Cu" "F.Mask") (tstamp b0b4513a-6f3a-49c3-a70e-d8be957aa043))
-  (pad "20" smd rect (at -8.89 24.13) (size 3.5 1.7) (drill (offset -0.9 0)) (layers "F.Cu" "F.Mask") (tstamp 71ff8a43-c935-43ad-b40e-77c45536087f))
-  (pad "21" smd rect (at 8.89 24.13) (size 3.5 1.7) (drill (offset 0.9 0)) (layers "F.Cu" "F.Mask") (tstamp ddb72566-1ff1-4ead-b617-0c84b739baa9))
-  (pad "22" smd rect (at 8.89 21.59) (size 3.5 1.7) (drill (offset 0.9 0)) (layers "F.Cu" "F.Mask") (tstamp ed394c3a-a41e-4b79-b822-8b7687c68e8c))
-  (pad "23" smd rect (at 8.89 19.05) (size 3.5 1.7) (drill (offset 0.9 0)) (layers "F.Cu" "F.Mask") (tstamp afc21572-2fbd-4a74-bf5e-beed4f231f0e))
-  (pad "24" smd rect (at 8.89 16.51) (size 3.5 1.7) (drill (offset 0.9 0)) (layers "F.Cu" "F.Mask") (tstamp 669813c5-f02d-45dc-aa99-ae20343ddfc1))
-  (pad "25" smd rect (at 8.89 13.97) (size 3.5 1.7) (drill (offset 0.9 0)) (layers "F.Cu" "F.Mask") (tstamp 86c543cf-301a-4390-a09b-a295c2861d04))
-  (pad "26" smd rect (at 8.89 11.43) (size 3.5 1.7) (drill (offset 0.9 0)) (layers "F.Cu" "F.Mask") (tstamp 87977e33-a8d7-4a12-ac79-a550eeeffd75))
-  (pad "27" smd rect (at 8.89 8.89) (size 3.5 1.7) (drill (offset 0.9 0)) (layers "F.Cu" "F.Mask") (tstamp f5d92b32-9783-4442-bd80-9a01388a5e20))
-  (pad "28" smd rect (at 8.89 6.35) (size 3.5 1.7) (drill (offset 0.9 0)) (layers "F.Cu" "F.Mask") (tstamp fb85b762-8252-4ef1-8e60-aaeb03344245))
-  (pad "29" smd rect (at 8.89 3.81) (size 3.5 1.7) (drill (offset 0.9 0)) (layers "F.Cu" "F.Mask") (tstamp d1aabfbb-ffd9-4064-844f-c5cd89dcba6c))
-  (pad "30" smd rect (at 8.89 1.27) (size 3.5 1.7) (drill (offset 0.9 0)) (layers "F.Cu" "F.Mask") (tstamp 19fa3ef4-81be-4962-9e2b-b99fbae5efa9))
-  (pad "31" smd rect (at 8.89 -1.27) (size 3.5 1.7) (drill (offset 0.9 0)) (layers "F.Cu" "F.Mask") (tstamp f0243550-1458-4f31-bf0a-95a995e425a8))
-  (pad "32" smd rect (at 8.89 -3.81) (size 3.5 1.7) (drill (offset 0.9 0)) (layers "F.Cu" "F.Mask") (tstamp 1f499606-d908-4978-8fb0-0758e1d4e5c6))
-  (pad "33" smd rect (at 8.89 -6.35) (size 3.5 1.7) (drill (offset 0.9 0)) (layers "F.Cu" "F.Mask") (tstamp 5d7b4270-53a9-4869-9a5b-c4f534c6ca26))
-  (pad "34" smd rect (at 8.89 -8.89) (size 3.5 1.7) (drill (offset 0.9 0)) (layers "F.Cu" "F.Mask") (tstamp 4c031137-938f-44e8-a1a1-89c7d800aff5))
-  (pad "35" smd rect (at 8.89 -11.43) (size 3.5 1.7) (drill (offset 0.9 0)) (layers "F.Cu" "F.Mask") (tstamp f0d03d01-a019-4f7f-9083-490bdfe0dc6c))
-  (pad "36" smd rect (at 8.89 -13.97) (size 3.5 1.7) (drill (offset 0.9 0)) (layers "F.Cu" "F.Mask") (tstamp f8d37682-9bc8-44f8-9702-3992256756b6))
-  (pad "37" smd rect (at 8.89 -16.51) (size 3.5 1.7) (drill (offset 0.9 0)) (layers "F.Cu" "F.Mask") (tstamp af81801e-e698-42f0-91b2-416b6d751762))
-  (pad "38" smd rect (at 8.89 -19.05) (size 3.5 1.7) (drill (offset 0.9 0)) (layers "F.Cu" "F.Mask") (tstamp af7e4f05-0278-426d-aa83-c96130f4a318))
-  (pad "39" smd rect (at 8.89 -21.59) (size 3.5 1.7) (drill (offset 0.9 0)) (layers "F.Cu" "F.Mask") (tstamp 2288b75b-da79-4cdd-a7fa-d703d5c02bb5))
-  (pad "40" smd rect (at 8.89 -24.13) (size 3.5 1.7) (drill (offset 0.9 0)) (layers "F.Cu" "F.Mask") (tstamp aa8da653-e3c0-461d-93e1-4c5a6737eba8))
-  (model "${KIPRJMOD}/kicad_libs/RP-Pico Libraries/PicoW.stp"
-    (offset (xyz -10.5 -25.5 1.5))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "RPi_Pico_W_SMD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 2x20, 2.54mm pitch, double rows")
+	(tags "Through hole pin header THT 2x20 2.54mm double row")
+	(property "Reference" "U1"
+		(at 0 0 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "29e10869-4958-4fed-bb97-54682f8adcbe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Pico W"
+		(at 0 2.159 180)
+		(layer "F.Fab")
+		(uuid "04c8470b-3c51-4b7d-b0b8-2f7e208b1c1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0fa71573-765f-4f85-bcb0-63cc7621be0e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c1dc333-9c34-49fe-ae27-5e4ff4c19803")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "N/A"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5560995b-67e1-4a56-80b9-ec49b524c667")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -10.5 -25.5)
+		(end 10.5 -25.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4649f240-95c1-42f3-9f5d-8563bd467613")
+	)
+	(fp_line
+		(start 10.5 25.5)
+		(end -10.5 25.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d5834e2-6fa2-4e2e-a668-7c37928090fa")
+	)
+	(fp_rect
+		(start -7 16.4)
+		(end 7 25.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "5436aee5-c883-4269-a347-27008731bfd4")
+	)
+	(fp_rect
+		(start -0.8 3.8)
+		(end 6.5 7.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "b90e3d67-fc57-4ac5-9741-1667b7647899")
+	)
+	(fp_poly
+		(pts
+			(xy -1.5 -16.5) (xy -3.5 -16.5) (xy -3.5 -18.5) (xy -1.5 -18.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "ce7d6e2a-f3ce-4d78-858e-231a9736eb67")
+	)
+	(fp_poly
+		(pts
+			(xy -1.5 -14) (xy -3.5 -14) (xy -3.5 -16) (xy -1.5 -16)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "c310b9b3-01b1-4873-8782-0fedfe187897")
+	)
+	(fp_poly
+		(pts
+			(xy -1.5 -11.5) (xy -3.5 -11.5) (xy -3.5 -13.5) (xy -1.5 -13.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "8e7fdce1-7209-4a38-970a-424d082a24f0")
+	)
+	(fp_poly
+		(pts
+			(xy 3.7 -20.2) (xy -3.7 -20.2) (xy -3.7 -24.9) (xy 3.7 -24.9)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Dwgs.User")
+		(uuid "713f3dfe-02d4-4f70-afca-1722b36f8814")
+	)
+	(fp_line
+		(start -11 -26)
+		(end 11 -26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "05bff865-7c60-4bcc-acdd-899924dfefa2")
+	)
+	(fp_line
+		(start -11 26)
+		(end -11 -26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cd363068-0528-4e39-b247-ce10e6e8a341")
+	)
+	(fp_line
+		(start 11 26)
+		(end -11 26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e739d690-7509-4ebe-970e-bfd5eb157853")
+	)
+	(fp_line
+		(start 11 26)
+		(end 11 -26)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d1b15fcf-7f07-4d87-8448-a1da2d85a2fe")
+	)
+	(fp_line
+		(start -10.5 -25.5)
+		(end 10.5 -25.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "134e8759-18e5-4c9b-8c08-70a194e2a029")
+	)
+	(fp_line
+		(start 10.5 25.5)
+		(end -10.5 25.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "39226bfb-4381-4447-a213-a08d671116a7")
+	)
+	(fp_text user "Copper Keepouts shown on Dwgs layer"
+		(at 0.1 -30.2 180)
+		(layer "Cmts.User")
+		(uuid "d30211fa-8ccf-4ddd-91ff-38b5ed3ae1e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "95d9f16d-4a6a-4723-9db5-4b1999dafe84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole oval
+		(at -2.725 -24)
+		(size 1.8 1.8)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "0abf6745-9c17-4751-ae7b-53bc2029b0d7")
+	)
+	(pad "" np_thru_hole oval
+		(at -2.425 -20.97)
+		(size 1.8 1.8)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "f226ecbf-e194-490f-ae23-1e8474e53077")
+	)
+	(pad "" np_thru_hole oval
+		(at 2.425 -20.97)
+		(size 1.8 1.8)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "c2347f41-03e8-4087-8da9-0cc86f47fa01")
+	)
+	(pad "" np_thru_hole oval
+		(at 2.725 -24)
+		(size 1.8 1.8)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(uuid "37234a77-ed8d-4a5d-82b0-ee518453f855")
+	)
+	(pad "1" smd rect
+		(at -8.89 -24.13)
+		(size 3.5 1.7)
+		(drill
+			(offset -0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "bc6fec90-f0d8-429d-ad80-bd665a80a0ca")
+	)
+	(pad "2" smd rect
+		(at -8.89 -21.59)
+		(size 3.5 1.7)
+		(drill
+			(offset -0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "dd142049-8e81-4805-864b-5c253c9876a7")
+	)
+	(pad "3" smd rect
+		(at -8.89 -19.05)
+		(size 3.5 1.7)
+		(drill
+			(offset -0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "07ecfbd6-ee88-43cc-90e5-06a0b24ee7fc")
+	)
+	(pad "4" smd rect
+		(at -8.89 -16.51)
+		(size 3.5 1.7)
+		(drill
+			(offset -0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "77583562-ea9a-4fe6-9d7c-ef199e218420")
+	)
+	(pad "5" smd rect
+		(at -8.89 -13.97)
+		(size 3.5 1.7)
+		(drill
+			(offset -0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "69d43ac5-f164-4a0b-bad7-7ad7178d795a")
+	)
+	(pad "6" smd rect
+		(at -8.89 -11.43)
+		(size 3.5 1.7)
+		(drill
+			(offset -0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "49ed12c4-7013-4b61-ba69-0294fc814437")
+	)
+	(pad "7" smd rect
+		(at -8.89 -8.89)
+		(size 3.5 1.7)
+		(drill
+			(offset -0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "e91263bc-6aa2-406f-9564-6837cfc2403b")
+	)
+	(pad "8" smd rect
+		(at -8.89 -6.35)
+		(size 3.5 1.7)
+		(drill
+			(offset -0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "5d8420f8-dd9e-4457-a131-7df7f37f1d31")
+	)
+	(pad "9" smd rect
+		(at -8.89 -3.81)
+		(size 3.5 1.7)
+		(drill
+			(offset -0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "d349cc4e-2a74-46bd-b982-281b83e0b006")
+	)
+	(pad "10" smd rect
+		(at -8.89 -1.27)
+		(size 3.5 1.7)
+		(drill
+			(offset -0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "378a7521-7417-4028-af12-0244a2affd9c")
+	)
+	(pad "11" smd rect
+		(at -8.89 1.27)
+		(size 3.5 1.7)
+		(drill
+			(offset -0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "10125225-fa8a-4d47-a840-1c6604829b26")
+	)
+	(pad "12" smd rect
+		(at -8.89 3.81)
+		(size 3.5 1.7)
+		(drill
+			(offset -0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "6e458557-18ce-4187-bb6d-14fa3e8baa32")
+	)
+	(pad "13" smd rect
+		(at -8.89 6.35)
+		(size 3.5 1.7)
+		(drill
+			(offset -0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "6cd77c28-0d9a-450e-8648-2399d35de48a")
+	)
+	(pad "14" smd rect
+		(at -8.89 8.89)
+		(size 3.5 1.7)
+		(drill
+			(offset -0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "d6da7c3d-f8d0-4a7f-bc97-0aa3b4265a0f")
+	)
+	(pad "15" smd rect
+		(at -8.89 11.43)
+		(size 3.5 1.7)
+		(drill
+			(offset -0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "f776f642-fbd6-48c8-b440-ab1def4d723e")
+	)
+	(pad "16" smd rect
+		(at -8.89 13.97)
+		(size 3.5 1.7)
+		(drill
+			(offset -0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "9f72a183-b8d1-4aaa-9bb8-c92a22eda462")
+	)
+	(pad "17" smd rect
+		(at -8.89 16.51)
+		(size 3.5 1.7)
+		(drill
+			(offset -0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "2d15cad5-ddd5-4823-b61d-c7504712a646")
+	)
+	(pad "18" smd rect
+		(at -8.89 19.05)
+		(size 3.5 1.7)
+		(drill
+			(offset -0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "d3561968-fcf9-4159-8b48-f53d1ec62a68")
+	)
+	(pad "19" smd rect
+		(at -8.89 21.59)
+		(size 3.5 1.7)
+		(drill
+			(offset -0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "b0b4513a-6f3a-49c3-a70e-d8be957aa043")
+	)
+	(pad "20" smd rect
+		(at -8.89 24.13)
+		(size 3.5 1.7)
+		(drill
+			(offset -0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "71ff8a43-c935-43ad-b40e-77c45536087f")
+	)
+	(pad "21" smd rect
+		(at 8.89 24.13)
+		(size 3.5 1.7)
+		(drill
+			(offset 0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "ddb72566-1ff1-4ead-b617-0c84b739baa9")
+	)
+	(pad "22" smd rect
+		(at 8.89 21.59)
+		(size 3.5 1.7)
+		(drill
+			(offset 0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "ed394c3a-a41e-4b79-b822-8b7687c68e8c")
+	)
+	(pad "23" smd rect
+		(at 8.89 19.05)
+		(size 3.5 1.7)
+		(drill
+			(offset 0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "afc21572-2fbd-4a74-bf5e-beed4f231f0e")
+	)
+	(pad "24" smd rect
+		(at 8.89 16.51)
+		(size 3.5 1.7)
+		(drill
+			(offset 0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "669813c5-f02d-45dc-aa99-ae20343ddfc1")
+	)
+	(pad "25" smd rect
+		(at 8.89 13.97)
+		(size 3.5 1.7)
+		(drill
+			(offset 0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "86c543cf-301a-4390-a09b-a295c2861d04")
+	)
+	(pad "26" smd rect
+		(at 8.89 11.43)
+		(size 3.5 1.7)
+		(drill
+			(offset 0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "87977e33-a8d7-4a12-ac79-a550eeeffd75")
+	)
+	(pad "27" smd rect
+		(at 8.89 8.89)
+		(size 3.5 1.7)
+		(drill
+			(offset 0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "f5d92b32-9783-4442-bd80-9a01388a5e20")
+	)
+	(pad "28" smd rect
+		(at 8.89 6.35)
+		(size 3.5 1.7)
+		(drill
+			(offset 0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "fb85b762-8252-4ef1-8e60-aaeb03344245")
+	)
+	(pad "29" smd rect
+		(at 8.89 3.81)
+		(size 3.5 1.7)
+		(drill
+			(offset 0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "d1aabfbb-ffd9-4064-844f-c5cd89dcba6c")
+	)
+	(pad "30" smd rect
+		(at 8.89 1.27)
+		(size 3.5 1.7)
+		(drill
+			(offset 0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "19fa3ef4-81be-4962-9e2b-b99fbae5efa9")
+	)
+	(pad "31" smd rect
+		(at 8.89 -1.27)
+		(size 3.5 1.7)
+		(drill
+			(offset 0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "f0243550-1458-4f31-bf0a-95a995e425a8")
+	)
+	(pad "32" smd rect
+		(at 8.89 -3.81)
+		(size 3.5 1.7)
+		(drill
+			(offset 0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "1f499606-d908-4978-8fb0-0758e1d4e5c6")
+	)
+	(pad "33" smd rect
+		(at 8.89 -6.35)
+		(size 3.5 1.7)
+		(drill
+			(offset 0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "5d7b4270-53a9-4869-9a5b-c4f534c6ca26")
+	)
+	(pad "34" smd rect
+		(at 8.89 -8.89)
+		(size 3.5 1.7)
+		(drill
+			(offset 0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "4c031137-938f-44e8-a1a1-89c7d800aff5")
+	)
+	(pad "35" smd rect
+		(at 8.89 -11.43)
+		(size 3.5 1.7)
+		(drill
+			(offset 0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "f0d03d01-a019-4f7f-9083-490bdfe0dc6c")
+	)
+	(pad "36" smd rect
+		(at 8.89 -13.97)
+		(size 3.5 1.7)
+		(drill
+			(offset 0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "f8d37682-9bc8-44f8-9702-3992256756b6")
+	)
+	(pad "37" smd rect
+		(at 8.89 -16.51)
+		(size 3.5 1.7)
+		(drill
+			(offset 0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "af81801e-e698-42f0-91b2-416b6d751762")
+	)
+	(pad "38" smd rect
+		(at 8.89 -19.05)
+		(size 3.5 1.7)
+		(drill
+			(offset 0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "af7e4f05-0278-426d-aa83-c96130f4a318")
+	)
+	(pad "39" smd rect
+		(at 8.89 -21.59)
+		(size 3.5 1.7)
+		(drill
+			(offset 0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "2288b75b-da79-4cdd-a7fa-d703d5c02bb5")
+	)
+	(pad "40" smd rect
+		(at 8.89 -24.13)
+		(size 3.5 1.7)
+		(drill
+			(offset 0.9 0)
+		)
+		(layers "F.Cu" "F.Mask")
+		(uuid "aa8da653-e3c0-461d-93e1-4c5a6737eba8")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../../EDA/Libraries/3D_models/pi-pico-2w.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

@@ -552,10 +552,22 @@
 		(uuid "81489273-6e41-4dfa-992b-7cba6a695379")
 	)
 	(junction
+		(at 99.06 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abebea1b-c552-45dc-af91-35e38b61f356")
+	)
+	(junction
 		(at 99.06 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0a94c53-a5e0-4863-a07b-2dfb1e5da9fc")
+	)
+	(junction
+		(at 90.17 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdea75a1-54b2-410e-b0e9-69548534b07f")
 	)
 	(junction
 		(at 54.61 52.07)
@@ -595,16 +607,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 125.73) (xy 90.17 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d46d25b-dcb5-45f4-9a1e-a41a22423da3")
-	)
-	(wire
-		(pts
 			(xy 99.06 43.18) (xy 99.06 45.72)
 		)
 		(stroke
@@ -622,6 +624,16 @@
 			(type default)
 		)
 		(uuid "153b746b-a113-4ed1-9ec4-6d31fa9596c0")
+	)
+	(wire
+		(pts
+			(xy 90.17 137.16) (xy 90.17 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "163ac425-6fb1-45cd-89d0-b6d376caef7a")
 	)
 	(wire
 		(pts
@@ -682,6 +694,16 @@
 			(type default)
 		)
 		(uuid "37a6c287-709b-41d3-8c4a-28b0b29f7840")
+	)
+	(wire
+		(pts
+			(xy 97.79 137.16) (xy 99.06 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d631f6f-973b-490e-a06d-324b3e98d7a3")
 	)
 	(wire
 		(pts
@@ -785,6 +807,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 137.16) (xy 92.71 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73eb1a17-9c80-467e-9e61-e43087b1ab1a")
+	)
+	(wire
+		(pts
 			(xy 97.79 80.01) (xy 99.06 80.01)
 		)
 		(stroke
@@ -845,6 +877,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 125.73) (xy 99.06 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e8095a6-3f10-406f-86f4-45616435b576")
+	)
+	(wire
+		(pts
 			(xy 97.79 102.87) (xy 99.06 102.87)
 		)
 		(stroke
@@ -885,7 +927,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 125.73) (xy 88.9 135.89)
+			(xy 90.17 125.73) (xy 90.17 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2148,7 +2190,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 135.89 0)
+		(at 90.17 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2156,7 +2198,7 @@
 		(dnp no)
 		(uuid "6bf55583-19ee-4c43-8546-ee31dc4073bc")
 		(property "Reference" "#PWR040"
-			(at 88.9 142.24 0)
+			(at 90.17 152.4 0)
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -2165,7 +2207,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 89.027 140.2842 0)
+			(at 90.297 150.4442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2173,7 +2215,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 135.89 0)
+			(at 90.17 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2182,7 +2224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 135.89 0)
+			(at 90.17 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2191,7 +2233,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 135.89 0)
+			(at 90.17 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2881,6 +2923,127 @@
 			(project "GBSCSI2_2.5SCA_TH_235x"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/dbcf004f-88e5-4126-8d06-f1825ffeac66"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 95.25 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e45372f0-a4d3-48f9-b090-ded572151ebc")
+		(property "Reference" "C43"
+			(at 91.694 140.208 90)
+			(effects
+				(font
+					(size 1.2 1.2)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 91.694 142.5194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 91.44 138.1252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C307331"
+			(at 95.25 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Preferred MPN" "CL05B104KB54PNC"
+			(at 95.25 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Alternate Part Number" "GRM155R71H104KE14D"
+			(at 95.25 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Nominal Preferred Characteristics" "50V X7R"
+			(at 94.742 144.526 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Case/Package" "0402"
+			(at 95.25 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dimensions" "1.0x0.5mm"
+			(at 95.25 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbf8cb11-14cc-4212-9562-bf58b4b4a2ab")
+		)
+		(pin "2"
+			(uuid "cee92871-20db-413d-9218-0933912104f3")
+		)
+		(instances
+			(project "GBSCSI2_2.5SCA_TH_235x"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730/dbcf004f-88e5-4126-8d06-f1825ffeac66"
+					(reference "C43")
 					(unit 1)
 				)
 			)

@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 6,
-    "active_layer_preset": "All Layers",
+    "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -10,7 +10,7 @@
     "opacity": {
       "images": 1.0,
       "pads": 1.0,
-      "shapes": 1.0,
+      "shapes": 0.4000000059604645,
       "tracks": 1.0,
       "vias": 1.0,
       "zones": 0.30000001192092896
@@ -49,7 +49,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
+    "visible_layers": "00000000_00000000_00000000_820200f7",
     "zone_display_mode": 0
   },
   "git": {

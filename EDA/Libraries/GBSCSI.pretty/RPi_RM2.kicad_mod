@@ -1,5 +1,5 @@
 (footprint "RPi_RM2"
-	(version 20241228)
+	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
@@ -277,7 +277,12 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "*.Cu" "Dwgs.User")
+		(layers "F.Cu" "B.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu"
+			"In7.Cu" "Dwgs.User" "In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu"
+			"In14.Cu" "In15.Cu" "In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu"
+			"In21.Cu" "In22.Cu" "In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu"
+			"In28.Cu" "In29.Cu" "In30.Cu"
+		)
 		(uuid "6352242f-c71f-4971-9428-4aa1d489adf6")
 		(hatch edge 0.5)
 		(connect_pads
@@ -307,4 +312,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/../../EDA/Libraries/3D_models/rpi_rm2.step"
+		(offset
+			(xyz 0 8.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
