@@ -2282,10 +2282,22 @@
 		(uuid "7488f59f-7d93-4d42-86a4-e10815607481")
 	)
 	(junction
+		(at 80.01 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "988535a4-798f-4703-b166-481ebe445efc")
+	)
+	(junction
 		(at 73.66 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0d795d0-aec6-4182-8453-c07b2a03d7e5")
+	)
+	(junction
+		(at 62.23 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa206c99-0577-4ba3-8939-0ba4c50d06bd")
 	)
 	(junction
 		(at 41.91 66.04)
@@ -2411,7 +2423,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 66.04) (xy 81.28 66.04)
+			(xy 71.12 66.04) (xy 80.01 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2681,6 +2693,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 76.2) (xy 66.04 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73530d33-9a86-4bdc-828c-6b90bb4e7b00")
+	)
+	(wire
+		(pts
 			(xy 50.8 116.84) (xy 50.8 113.03)
 		)
 		(stroke
@@ -2698,6 +2720,16 @@
 			(type default)
 		)
 		(uuid "7982acf3-122b-454f-8343-310bd21993a5")
+	)
+	(wire
+		(pts
+			(xy 76.2 76.2) (xy 80.01 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cbd1c24-ef3d-4c89-b4ff-253aa798021f")
 	)
 	(wire
 		(pts
@@ -2748,6 +2780,16 @@
 			(type default)
 		)
 		(uuid "9073601c-e897-454c-ac23-548d1df5d5c4")
+	)
+	(wire
+		(pts
+			(xy 80.01 66.04) (xy 80.01 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92925128-8f84-4f2e-8d72-f5c708699f5c")
 	)
 	(wire
 		(pts
@@ -2811,7 +2853,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 66.04) (xy 63.5 66.04)
+			(xy 59.69 66.04) (xy 62.23 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2931,6 +2973,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 66.04) (xy 63.5 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4b9706c-506b-44d9-8a74-33e58d402f7b")
+	)
+	(wire
+		(pts
 			(xy 223.52 34.29) (xy 223.52 35.56)
 		)
 		(stroke
@@ -2971,6 +3023,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 66.04) (xy 62.23 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbaac06b-9a0a-422c-859b-c26afc83a515")
+	)
+	(wire
+		(pts
 			(xy 96.52 62.23) (xy 96.52 66.04)
 		)
 		(stroke
@@ -2978,6 +3040,16 @@
 			(type default)
 		)
 		(uuid "e56e453c-bda2-413d-ab98-76ced10b4341")
+	)
+	(wire
+		(pts
+			(xy 80.01 66.04) (xy 81.28 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea59a799-d601-4b04-a5e6-2316a4a5f513")
 	)
 	(wire
 		(pts
@@ -6997,7 +7069,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 54.61 73.66 90)
+			(at 57.15 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7524,6 +7596,94 @@
 			(project "GBSCSI2_2.5N_235x"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/eb232e5c-fd69-4529-8cf9-3d8932039455"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 71.12 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1785e1b-9ee9-4595-ab5f-90139c8ebc2d")
+		(property "Reference" "JP2"
+			(at 69.85 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 71.12 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical"
+			(at 71.12 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 71.12 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "N/A"
+			(at 71.12 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "N/A"
+			(at 71.12 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6572af30-7ef4-4f64-8f75-016f7bcfb7bd")
+		)
+		(pin "2"
+			(uuid "70bd1ce0-700b-44c1-989d-987b96513a7e")
+		)
+		(instances
+			(project "GBSCSI2_2.5N_Pico"
+				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/eb232e5c-fd69-4529-8cf9-3d8932039455"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
