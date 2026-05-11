@@ -4319,7 +4319,7 @@
 			(uuid "c15381c9-764e-4fcd-8282-893aac0931e9")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_Pico"
+			(project "GBSCSI2_DB25_Pico"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730"
 					(reference "D5")
 					(unit 1)
@@ -4404,7 +4404,7 @@
 			(uuid "3c6f81d7-eef5-4546-a246-cd5b341da2e2")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_Pico"
+			(project "GBSCSI2_DB25_Pico"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730"
 					(reference "R10")
 					(unit 1)
@@ -4469,7 +4469,7 @@
 			(uuid "2b9232c7-152e-4832-b2b5-95e96200eda5")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_Pico"
+			(project "GBSCSI2_DB25_Pico"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730"
 					(reference "#PWR02")
 					(unit 1)
@@ -4536,7 +4536,7 @@
 			(uuid "d7202bc1-8ec2-41fb-9ff5-38510e52397a")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_Pico"
+			(project "GBSCSI2_DB25_Pico"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730"
 					(reference "#PWR021")
 					(unit 1)
@@ -4602,7 +4602,7 @@
 			(uuid "33377df7-b768-47b3-8a7f-36859f78cbb4")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_Pico"
+			(project "GBSCSI2_DB25_Pico"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730"
 					(reference "#PWR03")
 					(unit 1)
@@ -4666,7 +4666,7 @@
 			(uuid "c0b54070-e1fc-4416-9c20-92ec9dd25d32")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_Pico"
+			(project "GBSCSI2_DB25_Pico"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730"
 					(reference "#PWR023")
 					(unit 1)
@@ -4750,7 +4750,7 @@
 			(uuid "ed9ffdfd-3455-4db4-a6eb-6ec50bd3ef5e")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_Pico"
+			(project "GBSCSI2_DB25_Pico"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730"
 					(reference "R6")
 					(unit 1)
@@ -4835,7 +4835,7 @@
 			(uuid "c6e9de3c-51b2-4492-b0c3-b6f3c7ee181a")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_Pico"
+			(project "GBSCSI2_DB25_Pico"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730"
 					(reference "R55")
 					(unit 1)
@@ -4920,7 +4920,7 @@
 			(uuid "5e958560-2e9f-42bb-b44b-c014b834a61a")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_Pico"
+			(project "GBSCSI2_DB25_Pico"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730"
 					(reference "R9")
 					(unit 1)
@@ -4986,7 +4986,7 @@
 			(uuid "d193cd76-e39c-43ab-99cf-0d99c771cafb")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_Pico"
+			(project "GBSCSI2_DB25_Pico"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730"
 					(reference "#PWR04")
 					(unit 1)
@@ -5052,7 +5052,7 @@
 			(uuid "303dbbf3-a321-4e74-90aa-409d1324cc7c")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_Pico"
+			(project "GBSCSI2_DB25_Pico"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730"
 					(reference "#PWR017")
 					(unit 1)
@@ -5118,7 +5118,7 @@
 			(uuid "a16aa1b1-db92-46ac-a702-01681b2a8b8b")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_Pico"
+			(project "GBSCSI2_DB25_Pico"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730"
 					(reference "#FLG05")
 					(unit 1)
@@ -5203,7 +5203,7 @@
 			(uuid "89820d53-f7be-4e51-91df-d930d16bfa5c")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_Pico"
+			(project "GBSCSI2_DB25_Pico"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730"
 					(reference "R13")
 					(unit 1)
@@ -5267,7 +5267,7 @@
 			(uuid "bb73df09-bcad-4e73-9934-0688dc0b5063")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_Pico"
+			(project "GBSCSI2_DB25_Pico"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730"
 					(reference "#PWR022")
 					(unit 1)
@@ -5352,7 +5352,7 @@
 			(uuid "62c755a4-fb3a-4e5c-b8b2-d861af2460a0")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_Pico"
+			(project "GBSCSI2_DB25_Pico"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730"
 					(reference "R17")
 					(unit 1)
@@ -5436,7 +5436,7 @@
 			(uuid "38ead961-e420-4349-9975-425ce93f21c7")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_Pico"
+			(project "GBSCSI2_DB25_Pico"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730"
 					(reference "R8")
 					(unit 1)
@@ -5502,7 +5502,7 @@
 			(uuid "fe6b93a3-250b-4892-97ec-4df2ffba73a8")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_Pico"
+			(project "GBSCSI2_DB25_Pico"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730"
 					(reference "#PWR01")
 					(unit 1)
@@ -5568,7 +5568,7 @@
 			(uuid "cfaea137-2f26-4aec-9a02-8e8cab5c63a0")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_Pico"
+			(project "GBSCSI2_DB25_Pico"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730"
 					(reference "#PWR020")
 					(unit 1)
@@ -5634,7 +5634,7 @@
 			(uuid "07384f2f-9be9-4861-8985-bdc332014764")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_Pico"
+			(project "GBSCSI2_DB25_Pico"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730"
 					(reference "#PWR024")
 					(unit 1)
@@ -5668,7 +5668,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GBSCSI:RPi_Pico_W_SMD_TH"
+		(property "Footprint" "GBSCSI:RPi_Pico_W_SMD"
 			(at 102.87 76.2 90)
 			(effects
 				(font
@@ -5833,7 +5833,7 @@
 			(uuid "44918311-83fe-4c0c-9416-3b30d7d4b7cc")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_Pico"
+			(project "GBSCSI2_DB25_Pico"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730"
 					(reference "U1")
 					(unit 1)
@@ -5918,7 +5918,7 @@
 			(uuid "2c5cdc5f-94c1-40ad-8cd0-f9f6956f3b47")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_Pico"
+			(project "GBSCSI2_DB25_Pico"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730"
 					(reference "R11")
 					(unit 1)
@@ -6002,7 +6002,7 @@
 			(uuid "f7856cc0-ca9d-4ad6-accc-bdcf9c13a322")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_Pico"
+			(project "GBSCSI2_DB25_Pico"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730"
 					(reference "R5")
 					(unit 1)
@@ -6087,7 +6087,7 @@
 			(uuid "07e2e4b2-c639-4d77-b818-eba0cc4a76dc")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_Pico"
+			(project "GBSCSI2_DB25_Pico"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730"
 					(reference "R12")
 					(unit 1)
@@ -6165,7 +6165,7 @@
 			(uuid "cbc51e97-0425-4595-ad82-fd95da6be351")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_Pico"
+			(project "GBSCSI2_DB25_Pico"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730"
 					(reference "J6")
 					(unit 1)
@@ -6250,7 +6250,7 @@
 			(uuid "db1071ae-fcd3-4d92-9f95-54f134ee7f1f")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_Pico"
+			(project "GBSCSI2_DB25_Pico"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730"
 					(reference "R14")
 					(unit 1)
@@ -6338,7 +6338,7 @@
 			(uuid "70936cd2-6125-44e4-9993-1aa92d9f9983")
 		)
 		(instances
-			(project "GBSCSI2_2.5N_Pico"
+			(project "GBSCSI2_DB25_Pico"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730"
 					(reference "SW2")
 					(unit 1)
@@ -6441,7 +6441,7 @@
 			)
 		)
 		(instances
-			(project "GBSCSI2_2.5N_Pico"
+			(project "GBSCSI2_DB25_Pico"
 				(path "/93ed3756-682c-4bf3-aa83-42c6b59d82c2/871f9ffd-aa9f-4db2-af7f-735335bcb730"
 					(page "3")
 				)
